@@ -1,7 +1,8 @@
+var serverUrl = require('../../serverUrl.js');
+
 var AngularHomepage = function() {
 
-  this.url = 'http://localhost:4000/';
-
+  this.url = new serverUrl().URL;
   this.linkTalk = $('.link_talk');
   this.linkHome = element(by.className('link_home'));
   this.linkJqueryApp = element(by.className('link_jquery'));

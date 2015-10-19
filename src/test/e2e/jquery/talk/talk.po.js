@@ -1,8 +1,12 @@
+var serverUrl = require('../../serverUrl.js');
+
 var jQueryTalkPage = function () {
+
+  this.url = new serverUrl().URL;
 
   //Protractor can't be used in a non angular app. So we have to call the webdriver
   this.get = function () {
-    browser.get('http://localhost:4000');
+    browser.get(this.url);
     element(by.className('link_jquery')).click();
     element(by.className('link_talk')).click();
   };

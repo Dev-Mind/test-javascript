@@ -24,7 +24,8 @@ var paths = {
       'src/test/unit/**/*.spec.js'
     ],
     e2e: [
-      'src/test/e2e/*.spec.js'
+      'src/test/e2e/**/*.spec.js',
+      'src/test/e2e/e2eConfig.js'
     ],
     test: [
       'node_modules/angular-mocks/angular-mocks.js'
@@ -48,6 +49,9 @@ var paths = {
     fonts: [
       'node_modules/roboto-fontface/fonts/*.*',
       'node_modules/material-design-icons/iconfont/*.*'
+    ],
+    data: [
+      'src/app/assets/data/*.*'
     ],
     images: [
       'src/app/assets/img/**/*.*',

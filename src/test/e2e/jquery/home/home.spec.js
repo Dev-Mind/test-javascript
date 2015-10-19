@@ -1,4 +1,3 @@
-
 var jQueryHomepage = require('./home.po.js');
 
 describe('jQuery Homepage', function(){

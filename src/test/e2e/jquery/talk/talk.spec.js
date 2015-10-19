@@ -1,7 +1,7 @@
 
 var jQueryTalkPage = require('./talk.po.js');
 
-fdescribe('Angular Talk', function(){
+describe('Angular Talk', function(){
 
   var page;
 

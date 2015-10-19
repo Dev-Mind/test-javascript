@@ -3,3 +3,4 @@ app/bower_components/
 .tmp/
 .idea/
 dist/
+build
