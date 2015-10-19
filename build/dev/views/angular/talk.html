@@ -1,0 +1,37 @@
+<h1>Liste des sessions à Mix-IT</h1>
+
+<div class="mdl-grid">
+    <div class="mdl-textfield mdl-js-textfield mdl-cell--8-col mdl-cell--1-col-phone hide-on-mobile">&nbsp;</div>
+    <div class="mdl-textfield mdl-js-textfield mdl-cell--4-col mdl-cell--11-col-phone">
+        <input class="mdl-textfield__input" type="text" id="search" ng-model="search"/>
+        <label class="mdl-textfield__label" for="search">Recherche rapide...</label>
+    </div>
+</div>
+
+
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp jt-table">
+    <thead ng-show="false">
+    <tr>
+        <th>&nbsp;</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="session in ctrl.sessions | filter:search | orderBy:order">
+        <td class="mdl-data-table__cell--non-numeric">
+            <p class="jt-text mdl-card__title-text cesar-card__title-text">
+                <i class="material-icons cesar-button--fab">{{session.format | sessionLogo}}</i>&nbsp;
+                {{session.title}}&nbsp;<b>{{session.lang}}</b>
+            </p>
+            {{session.summary}}<br>
+            &nbsp;<br>
+                <span ng-repeat="speaker in session.speakers">
+                        <a class="jt-mini-button mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab">
+                            <img ng-src="http://www.gravatar.com/avatar/{{speaker.hash}}">
+                        </a>
+                    <a>{{speaker.firstname}} {{speaker.lastname}}</a>&nbsp;
+                </span>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p><p>&nbsp;</p>

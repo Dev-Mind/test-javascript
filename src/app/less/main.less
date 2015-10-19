@@ -1,0 +1,139 @@
+@import "../../../node_modules/roboto-fontface/css/roboto-fontface.less";
+@import "material-icons.less";
+@import "text.less";
+@import "dialog.less";
+
+@primary_color : #039be5;
+@secondary_color : #424242;
+@primary_color_flash : rgb(255, 64, 129);
+
+body {
+  font-family: "Roboto", "Arial", sans-serif !important;
+}
+
+img {
+  max-width: 100% !important;
+  max-height: 100%;
+}
+
+.jt_header img {
+  max-width: 60%;
+  max-height: 3em;
+  vertical-align: middle;
+  padding-left: 1em;
+}
+
+.jt_footer {
+  color: white;
+  div {
+    background-color: @secondary_color;
+  }
+  p {
+    font-weight: 300;
+  }
+  a {
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+  }
+}
+
+.jt {
+  font-weight: 300;
+}
+
+//we have to overload material style here
+.mdl-layout__drawer-button {
+  background-color: @primary_color !important;
+  > i {
+    margin-top: 10px;
+  }
+}
+
+.jt_logo {
+  max-height: 350px;
+}
+
+.jt_container{
+  display: block;
+  width: 98% !important;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jt_container-relative{
+  position: relative;
+}
+
+.jt_header-top{
+  .jt_container;
+  padding-top: 1em;
+}
+
+.jt_view {
+  .jt_container;
+  min-height: 550px;
+}
+
+.jt-social {
+  float: right;
+}
+
+@media (max-width: 479px) {
+  .jt-mini-button {
+    visibility: hidden;
+    height: 0em !important;
+    min-width: 0em !important;
+    width: 0em !important;
+  }
+  .jt_header{
+    height: 57px;
+  }
+  .jt_header-top,.jt_view {
+    top: 57px;
+    margin-bottom: 14px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .jt-mini-button {
+    visibility: visible;
+    height: 1em !important;
+    min-width: 1em !important;
+    width: 1em !important;
+    margin-bottom: 2px;
+  }
+  .jt_header{
+    height: 57px;;
+  }
+  .jt_header-top, .jt_view {
+    top: 57px;
+    margin-bottom: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .jt-mini-button {
+    visibility: visible;
+    height: 1em !important;
+    min-width: 1em !important;
+    width: 1em !important;
+    margin-bottom: 4px;
+  }
+  .jt_header{
+    height: 65px;
+  }
+  .jt_header-top, .jt_view {
+    top: 65px;
+    margin-bottom: 24px;
+  }
+}
+
+
+.jt-table{
+  width: 100%;
+  max-width: 100%;
+  height: auto !important;
+  min-height: 60px !important;
+  white-space: normal !important;
+}

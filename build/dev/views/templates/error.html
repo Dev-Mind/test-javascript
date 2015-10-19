@@ -1,0 +1,26 @@
+    <div id="mdl-error" class="jt_mdl">
+    <div class="jt_mdl-dialog">
+        <div class="jt_mdl-content">
+            <div class="mdl-card jt_mdl-card mdl-shadow--2dp through mdl-shadow--16dp">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Une erreur a été détectée</h2>
+                </div>
+                <div class="mdl-card__supporting-text" ng-if="error">
+                    <b>{{error.status}} {{error.statusText}}</b>
+                    <p ng-bind="error.data"></p>
+                </div>
+                <div class="mdl-card__supporting-text" ng-if="!error">
+                   <p>Impossible d'interpréter la réponse retournée. Veuillez consulter les logs</p>
+                </div>
+                <div class="mdl-card__actions">
+                    <div class="jt_mdl-button-bar">
+                        <button class="mdl-button mdl-js-button mdl-button--primary" ng-click="closeDialog()">
+                            Annuler
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

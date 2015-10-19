@@ -1,0 +1,68 @@
+{
+  "name": "jstest",
+  "description": "Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javamind/jstest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/javamind/jstest/issues"
+  },
+  "dependencies": {
+    "angular": "1.4.7",
+    "angular-cookies": "1.4.7",
+    "angular-marked": "0.0.18",
+    "angular-mocks": "1.4.7",
+    "angular-ui-router": "0.2.15",
+    "angular-sanitize": "1.4.7",
+    "angular-translate": "2.8.1",
+    "jquery": "^2.1.4",
+    "markdown": "^0.5.0",
+    "marked": "^0.3.5",
+    "material-design-icons": "2.0.0",
+    "material-design-lite": "1.0.5",
+    "roboto-fontface": "0.4.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "connect-modrewrite": "^0.8.1",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-html-replace": "^1.5.1",
+    "gulp-if": "^1.2.5",
+    "gulp-jshint": "^1.11.2",
+    "gulp-less": "^3.0.3",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-ng-html2js": "^0.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-protractor": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-sequence": "^0.4.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "jasmine-core": "^2.3.4",
+    "jasmine-jquery": "^2.1.1",
+    "jquery": "^2.1.4",
+    "jshint-stylish": "^2.0.1",
+    "karma": "^0.13.3",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-cli": "^0.1.0",
+    "karma-coverage": "^0.4.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-junit-reporter": "^0.3.2",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "merge-stream": "^0.1.8",
+    "phantomjs": "^1.9.17",
+    "protractor": "^2.5.1",
+    "serve-static": "^1.10.0",
+    "through2": "^2.0.0"
+  },
+  "scripts": {
+    "build": "gulp build"
+  }
+}

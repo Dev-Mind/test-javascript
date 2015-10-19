@@ -1,0 +1,1772 @@
+
+[ {
+  "idMember" : 592,
+  "login" : "julien.vey",
+  "email" : "vey.julien@gmail.com",
+  "firstname" : "Julien",
+  "lastname" : "Vey",
+  "company" : "Bywan",
+  "level" : null,
+  "logo" : null,
+  "hash" : "33f4da946e4712d9aac7ea915fdc71e4",
+  "sessionType" : null,
+  "shortDescription" : "Développeur indépendant, Contributeur OpenStack, Docker addict",
+  "longDescription" : "Passionné par de nombreux sujets, Julien est développeur indépendant et travaille sur les problématiques DevOps et Cloud. Fervent partisan de l'Open Source et du logiciel libre, contributeur actif sur OpenStack et Core Reviewer sur le projet Solum, il développe le provider OpenStack pour Vagrant et Terraform. Il est également fortement impliqué dans l'essor des communautés de développeurs, étant notamment Editor pour InfoQ, et speaker lors de conférences francophones et internationales (Mix-IT, Devoxx, OpenStack Summit…). ",
+  "userLinks" : [ {
+    "key" : "Site & Blog",
+    "value" : "http://julienvey.com"
+  }, {
+    "key" : "Site Pro",
+    "value" : "http://bywan.fr"
+  } ],
+  "interests" : [ "Java", "DevOps", "Terraform", "Cloud", "Go", "GCE", "Openstack", "Docker", "AWS" ],
+  "sessions" : [ 631 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/592"
+    }
+  }
+}, {
+  "idMember" : 1371,
+  "login" : "eric.bellemon",
+  "email" : "eric.bellemon@gmail.com",
+  "firstname" : "Éric",
+  "lastname" : "Bellemon",
+  "company" : "Bywan",
+  "level" : null,
+  "logo" : null,
+  "hash" : "ca0f5b903eed21dcb3c0b6b1c0327498",
+  "sessionType" : null,
+  "shortDescription" : "Couteau suisse, fan d'automatisation, développeur polyglotte du Java à Go en passant par JavaScript ou encore Python. ",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 631 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1371"
+    }
+  }
+}, {
+  "idMember" : 1461,
+  "login" : "scm.blanc",
+  "email" : "scm.blanc@gmail.com",
+  "firstname" : "Sebastien",
+  "lastname" : "Blanc",
+  "company" : "Red Hat",
+  "level" : null,
+  "logo" : null,
+  "hash" : "8d9d426881112f44887500d96852f725",
+  "sessionType" : null,
+  "shortDescription" : "Sébastien Blanc is software engineer with 10 years of experience. He works at Red Hat and focus on Open Source libraries for Mobile.",
+  "longDescription" : "Sébastien Blanc is JEE engineer with 10 years of experience. He works at Red Hat and focus on Open Source libraries for Mobile in the Enterprise Besides his “heavy” JEE profile (middleware, banking and insurance products) Sébastien spends a lot of time in Groovy and Grails. He is the author of several Grails plugins such as Spring Mobile, Jquery Mobile Scaffolding or Geolocation. He believes that Mobile Web/Hybrid Apps are the future and tries to evangelize this through different conferences (Devoxx, JavaOne,  SpringOne).",
+  "userLinks" : [ ],
+  "interests" : [ "Java", "cordova", "Mobile" ],
+  "sessions" : [ 711 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1461"
+    }
+  }
+}, {
+  "idMember" : 36,
+  "login" : "FroMage",
+  "email" : "stephane.epardaud@gmail.com",
+  "firstname" : "Stéphane",
+  "lastname" : "Épardaud",
+  "company" : "Red Hat",
+  "level" : null,
+  "logo" : null,
+  "hash" : "641cdfbafc3497dcca9ef648ebb4d1ed",
+  "sessionType" : null,
+  "shortDescription" : "Développeur Ceylon.",
+  "longDescription" : "Depuis les hautes montagnes de Nice, Stéphane travaille pour Red Hat sur le project Ceylon.\n\nHacker passionné de Java, C, Perl ou Scheme. Versé dans les standards web et des bases de données, il a travaillé sur divers projets tel qu'un éditeur XML WYSIWYG, une libraire de multi-threading en C, un language pour agents mobiles en Scheme (compilateur et machines virtuelles), ainsi que des services web 2.0 RESTful et des interfaces web riches en HTML 5 / Javascript.\n\nAvide de partage de connaissance, il va souvent parler dans des conférences tels que Scheme Workshop, l´Université de Nice, Devoxx, JavaOne, JavaZone, JAX, de nombreux Java User Groups, dont le Riviera Java User Group qu'il anime conjointement. Acteur passionné de l´open source depuis le début, il a contribué au projet RESTEasy et crée les projets jax-doclets, stamps.js ainsi quelques modules de Play! Framework.\n\nIl travaille maintenant à temps plein sur les projets Ceylon pour Red Hat, dont le backend JVM du compilateur, plusieurs modules du SDK, le repository de modules Herd et en général faire en sorte que toutes ces parties marchent ensemble.\n\n",
+  "userLinks" : [ {
+    "key" : "Home",
+    "value" : "http://stephane.epardaud.fr"
+  } ],
+  "interests" : [ "Git", "jQuery", "Hibernate", "Java", "Play! Framework", "HTML5", "JavaEE", "JavaScript", "GitHub", "Ceylon" ],
+  "sessions" : [ 761 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/36"
+    }
+  }
+}, {
+  "idMember" : 1531,
+  "login" : "etienne.juliot",
+  "email" : "etienne.juliot@obeo.fr",
+  "firstname" : "Etienne",
+  "lastname" : "Juliot",
+  "company" : "Obeo",
+  "level" : null,
+  "logo" : null,
+  "hash" : "d5e44a151a66c712202687663ae88a6b",
+  "sessionType" : null,
+  "shortDescription" : "Co-founder and Vice President at Obeo. Member of the board of Directors of Eclipse Foundation. My Vision: OpenSource + Modeling",
+  "longDescription" : "Etienne Juliot est co-fondateur et vice président de Obeo, une société spcialisée dans les outils de modélisation. Il a plus de 14 ans d'expérience en développement Java et architecture logicielle pour les systèmes d'information et les systèmes embarqués. Il est impliqué dans plusieurs projets Eclipse (Acceleo, Sirius, EMF, eGit, etc.) et est un des membres du board de direction de la fondation Eclipse. \nIl gère des collaborations stratégiques avec de grands groupes et participent activement à plusieurs  consortiums : fondateur de Polarsys, de Alliance Libre, orateurs à des conférences internationales telles que EclipseCon et des JUG, leader de projets de R&D, ...",
+  "userLinks" : [ {
+    "key" : "Sirius",
+    "value" : "http://www.eclipse.org/sirius"
+  }, {
+    "key" : "Obeo",
+    "value" : "http://www.obeo.fr"
+  } ],
+  "interests" : [ "open source", "Eclipse", "agile architecture", "Modélisation" ],
+  "sessions" : [ 771 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1531"
+    }
+  }
+}, {
+  "idMember" : 1401,
+  "login" : "tpierrain",
+  "email" : "thomas@pierrain.net",
+  "firstname" : "Thomas",
+  "lastname" : "PIERRAIN",
+  "company" : "SG CIB",
+  "level" : null,
+  "logo" : null,
+  "hash" : "d626d8946597c5926e3b9d12d22597f5",
+  "sessionType" : null,
+  "shortDescription" : "NFluent creator. Agile from father to son since 1905... Use-case-driven & coding architect #DDD #XP #lowLatency #pragmatic #socialAnimal",
+  "longDescription" : "Thomas PIERRAIN est un \"pragmatic architect\" travaillant sur des problématiques low latency à la SG CIB depuis plus de 9 ans maintenant (et après 7 années passées à apprendre son métier les pieds dans le web). \n\nAgile de père en fils depuis 1905, et créateur de la librairie open source .NET NFluent, Thomas est également un véritable geek communiquant qui adore coder, et partager sa passion au sein des différentes communautés auxquelles il participe de plus en plus (DDD Paris, Paris Software Craftsmanship, eXtreme Programmers Paris & Alt.NET France).",
+  "userLinks" : [ {
+    "key" : "Blog: use case driven",
+    "value" : "http://tpierrain.blogspot.fr/"
+  }, {
+    "key" : "NFluent",
+    "value" : "http://www.n-fluent.net/"
+  }, {
+    "key" : "my github",
+    "value" : "https://github.com/tpierrain"
+  }, {
+    "key" : "A Devoxx 2014",
+    "value" : "https://www.parleys.com/play/537dccafe4b0e9793767cd05/chapter0/about"
+  }, {
+    "key" : "Mug Lyon Novembre 2014",
+    "value" : "https://www.youtube.com/watch?v=I3rNyxnD7as"
+  } ],
+  "interests" : [ "reactive programming", "TDD", "DDD", "machine intelligence", "Craftsmanship", "multithreading", "Machine Learning" ],
+  "sessions" : [ 791 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1401"
+    }
+  }
+}, {
+  "idMember" : 1541,
+  "login" : "bruno.boucard",
+  "email" : "boucard.bruno@free.fr",
+  "firstname" : "Bruno",
+  "lastname" : "Boucard",
+  "company" : "freelance",
+  "level" : null,
+  "logo" : null,
+  "hash" : "61f07c096d20b46d5c861ebf008c21ee",
+  "sessionType" : null,
+  "shortDescription" : "Agile Coach and Software craftsman at Société Générale",
+  "longDescription" : "As Agile Coach and Software Craftsman, in Integrated into the \"Agile Center” entity (SGCIB), I leverage different project teams in their agile transformation.\n\nPreviously,I was Technical Architect for the transversal GES (BNP PARIBAS CIB) TEAM my goal was to contribute to GES reliabilty initiative.\n\nBefore, I was Technical Architect in the development team in charge to develop a new graphical portal based on the Microsoft Technologies, I led the development choices to produce some new graphical applications based on WPF for GES (BNP PARIBAS CIB),\n\nI was before Architecture Team Manager of CTY Business Line (SGCIB), I managed a team of technical experts.\n\nPreviously in ISV Team at Microsoft France, I managed ISV relationships for Financial Services and Professional Services sectors.\n\nBefore I was consultant in the Markets Direction Office, as technical architect (SGCIB), I led a small team of technical engineers in the context of innovative projects where new, open, and distributed financial architectures which was developed on top of Microsoft technologies.\n\nSpecialties: Software architecture, agile methodologies and parallel programming.",
+  "userLinks" : [ ],
+  "interests" : [ "TDD;BDD;DDD;Refactoring;Agile;Kaban;" ],
+  "sessions" : [ 2161, 791 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1541"
+    }
+  }
+}, {
+  "idMember" : 263,
+  "login" : "rmat0n",
+  "email" : "romain@web-tambouille.fr",
+  "firstname" : "Romain",
+  "lastname" : "Maton",
+  "company" : "TamLab",
+  "level" : null,
+  "logo" : null,
+  "hash" : "8cecb145b6efcdf5f45673b882751269",
+  "sessionType" : null,
+  "shortDescription" : "Indépendant, membre des Zindeps, développeur Java, Web,Agile et auteur du blog [web-tambouille.fr](http://www.web-tambouille.fr)",
+  "longDescription" : "Romain Maton est consultant indépendant, membre du groupe des Zindeps. Mission après mission, il s’est forgé une solide expérience en développement Web et logiciel en environnement agile. Il dispose ainsi d'une très large compétence sur l'ensemble de l'écosystème JEE, que ce soit sur les bonnes pratiques d'architecture, sur les frameworks de développement, sur les interfaces client riches mais aussi sur Scrum.\n\nIl est intervenu dans différents JUG de France et conférences sur des sujets tels que Scala, Node ou bien encore l'optimisation de sites Web mobiles Dans le blog [web-tambouille.fr](http://www.web-tambouille.fr) dont il est le créateur, il traite de sujets tels que Java, Node, HTML5, Javascript, Programmation Fonctionnelle, Android et bien d'autres !",
+  "userLinks" : [ {
+    "key" : "Web Tambouille",
+    "value" : "http://www.web-tambouille.fr/"
+  } ],
+  "interests" : [ "SocketIO", "eXtrem Programming", "Hibernate", "Java", "Play! Framework", "GWT", "Guava", "Scala", "Hadoop", "Sonar", "RIA", "Domain Driven Design", "Stripes", "Backbone.js", "Spring", "Mobile", "Ceylon", "jQuery", "Web", "CoffeeScript", "HTML5", "JavaEE", "Continuous Integration", "Concurrence", "MongoDB", "API", "Maven", "Jeux Agiles", "JVM", "GitHub", "Eclipse", "Performances", "Craftsmanship", "Google App Engine", "Java 8", "NodeJS", "NoSQL", "Kanban", "JavaScript", "Python", "Scrum", "Ruby" ],
+  "sessions" : [ 801 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/263"
+    }
+  }
+}, {
+  "idMember" : 929,
+  "login" : "simonbasle",
+  "email" : "simon.basle@gmail.com",
+  "firstname" : "Simon",
+  "lastname" : "Baslé",
+  "company" : "Couchbase",
+  "level" : null,
+  "logo" : null,
+  "hash" : "fda20bf9d9c85c4390ca7237beba45a2",
+  "sessionType" : null,
+  "shortDescription" : "software development aficionado, Editor @InfoQFR, SDK Engineer at @Couchbase",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "About.me",
+    "value" : "http://about.me/simonbasle"
+  } ],
+  "interests" : [ "Clean Code", "Guava", "Feature Flipping", "Solr", "Réseau", "Kotlin", "OOP", "Desktop", "Java8", "Continuous Integration", "OpenSource", "Continuous Deployment", "Concurrence", "API", "Veille techno", "Lean Startup", "fun", "Best Practices", "JVM", "Software Architecture", "Communauté", "Algorithmes", "Apprentissage", "Entrepreneuriat", "GitHub", "hypermedia", "Craftsmanship", "Google App Engine", "Java 8", "Psychologie", "NoSQL", "UI", "Stash", "lambda", "optimisation", "Ergonomie", "Amélioration continue", "distributed programming", "méthodes", "Communication", "JVM platform", "Java", "UX", "Refactoring", "rest", "motivational design (gamification)", "google", "POO", "OAuth", "Git", "DevOps", "NoScala", "Scalabilité", "développement", "Neo4J", "IntelliJ IDEA", "Game Development", "Sociologie", "Startup", "SVG", "Respect", "Design Patterns", "Couchbase", "Eclipse", "JavaFX", "MVP", "Performances", "User Experience", "Too much checkbox", "Indie Game", "JIRA", "Sécurité informatique", "ElasticSearch", "Cryptographie", "pair programming", "recrutement", "Recherche", "Partage et veille techno", "architecture", "algorithmics", "La psychologie du travail" ],
+  "sessions" : [ 821 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/929"
+    }
+  }
+}, {
+  "idMember" : 1581,
+  "login" : "ldoguin",
+  "email" : "laurent.doguin@gmail.com",
+  "firstname" : "Laurent",
+  "lastname" : "Doguin",
+  "company" : "Couchbase",
+  "level" : null,
+  "logo" : null,
+  "hash" : "928c9ff1e33d7f9f2080d71b2338d65d",
+  "sessionType" : null,
+  "shortDescription" : "Paris based Couchbase Developer Advocate, I write code in Java and blog posts in Markdown.",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ "Java", "NoSQL", "reactive", "Couchbase" ],
+  "sessions" : [ 821 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1581"
+    }
+  }
+}, {
+  "idMember" : 1711,
+  "login" : "Corinne Schillinger",
+  "email" : "corinne@inseo.fr",
+  "firstname" : "Corinne",
+  "lastname" : "Schillinger",
+  "company" : "inseo",
+  "level" : null,
+  "logo" : null,
+  "hash" : "a03f0990e6ce680f11a32070eb225ee3",
+  "sessionType" : null,
+  "shortDescription" : "Intégratrice senior, Experte AW, Présidente de PW, Contrôleuse chez t13h37 et Auteur de Intégration web - les bonnes pratiques.",
+  "longDescription" : "Intégratrice senior et [Experte AccessiWeb en Évaluation](http://accessiweb.org/index.php/expert-accessiweb-en-evaluation.html), Corinne s'est forgée une solide expérience dans le domaine du développement front-end avant de créer son entreprise en 2009. Ayant à cœur de promouvoir les standards et la qualité web, elle est membre de [Paris-Web](http://www.paris-web.fr/) depuis 2011, association bénévole dont elle est l'actuelle Présidente.   \nElle profite de ses heures perdues pour partager avec enthousiasme son expérience en animant régulièrement des conférences et ateliers lors d'événements ayant trait à la conception web, et est l'auteur du livre [Intégration web : Les bonnes pratiques](http://www.amazon.fr/Int%C3%A9gration-web-bonnes-pratiques-lint%C3%A9grateur/dp/2212133707/ref=ntt_at_ep_dpi_1) publié aux éditions Eyrolles.",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 951 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1711"
+    }
+  }
+}, {
+  "idMember" : 103,
+  "login" : "ehsavoie",
+  "email" : "emmanuel.hugonnet@gmail.com",
+  "firstname" : "Emmanuel",
+  "lastname" : "Hugonnet",
+  "company" : "Silverpeas",
+  "level" : null,
+  "logo" : null,
+  "hash" : "3feff958d2b9ecf5bf131ab690eb83f3",
+  "sessionType" : null,
+  "shortDescription" : "Senior Developer",
+  "longDescription" : "Depuis plus de quinze ans, Emmanuel conçoit et met en place des solutions J2EE pour de grands comptes de l'industrie et des télécoms. Cette expérience lui a permis d'avoir une vision globale du développement d'applications professionnelles et de maîtriser les technologies adaptées.\nAprès avoir œuvré dans la mise en place de plate-forme de développement chez de grands comptes et chez des éditeurs, il a rejoint, comme développeur l'équipe en charge de l'API de Management de WildFly. \nIl développe et maintient le plugin WildFly de Netbeans et anime l'AlpesJUG, le pluf enneigé des JUG français.",
+  "userLinks" : [ ],
+  "interests" : [ "jQuery", "JVM", "Java", "JavaEE", "GitHub", "JDBC", "EJB", "Groovy" ],
+  "sessions" : [ 971 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/103"
+    }
+  }
+}, {
+  "idMember" : 1005,
+  "login" : "MattiSG",
+  "email" : "signups@mattischneider.fr",
+  "firstname" : "Matti",
+  "lastname" : "Schneider",
+  "company" : "Secrétariat Général pour la Modernisation de l’Action Publique",
+  "level" : null,
+  "logo" : null,
+  "hash" : "3a06762591a19586422a38e508057850",
+  "sessionType" : null,
+  "shortDescription" : "Transdisciplinary engineer.  Building software, studying humans, designing interactions, thinking society.",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Site",
+    "value" : "http://mattischneider.fr"
+  }, {
+    "key" : "Comparatif d'outils agile",
+    "value" : "http://mattischneider.fr/agile/outils/"
+  }, {
+    "key" : "Anthropologie et agilité",
+    "value" : "http://mattischneider.fr/anthropologie/agile/thesis/"
+  } ],
+  "interests" : [ "eXtrem Programming", "CSS", "Domain Driven Design", "Flux", "Code", "HTML5", "musique", "Continuous Integration", "OpenSource", "Staff", "API", "Graph Databases", "Programmation Fonctionnelle", "web application", "User Stories", "Configuration", "technical leadership", "Psychologie", "lambda", "pédagogie", "quality advocacy", "Rétrospective", "Communication", "Refactoring", "Agile User Experience", "team", "Social software", "les chatons", "Music", "Equipe", "équipe auto-organisée", "Startup", "BDD", "Océan bleu", "Node", "Visualization", "Santé", "NodeJS", "pair programming", "software  craftsmanship", "continuous improvement", "WebSockets", "valeurs", "regular expressions", "recrutement", "vie perso", "constraint programming", "Partage et veille techno", "Agile", "innovation", "Agilité", "Emergent Design", "graph", "Photography", "maturité", "Extreme Programming", "System Thinking", "Veille techno", "Fabrication numérique", "Développeurs", "Entrepreneuriat", "Craftsmanship", "Web 2.0", "UI", "analytics", "JavaScript", "supervision", "Ergonomie", "méthodes", "relation clients", "Facilitation", "UX", "Estimation", "SIG", "skiing!", "ScrumMaster", "futur", "fablab", "teamwork skills", "Product Owner", "Leadership", "lean start-up", "Design Patterns", "Performances", "Too much checkbox", "Tests", "Kanban", "Test", "Planning Poker", "Story Mapping", "communication skills", "Scrum", "self-organisation", "Clean Code", "Langage dynamique", "Les train de couleur pourpre", "prévention", "déploiement continu", "process", "Organisation", "Programmeur", "Management", "web semantique", "Big Data", "transparence", "Bash", "Web design", "relations clients", "network analysis", "Software Architecture", "Communauté", "écrire", "Web 8.0", "GitHub", "formation", "spécification exécutable", "Startup d'État", "principes", "pratiques agiles", "Classification", "Amélioration continue", "intégrité", "IT", "motivational design", "Stratégie", "Web", "DevOps", "découplage", "Sociologie", "supervision libre et open source", "Le jambon de Bayonne", "Gestion de produit", "habits", "Respect", "Legacy", "Qualité", "User Experience", "Machine Learning", "métriques", "experience", "gestion produit", "Gouvernance", "websockets authentication security", "semi-structured data", "architecture", "Lean", "workshop", "Node.js", "Open hardware", "clean architecture", "Agile Testing", "Continuous Deployment", "valeur métier", "Transition vers l'agilité", "Lean Startup", "Best Practices", "Sociocratie", "emergent architecture", "Monitoring", "Feedback", "design", "optimisation", "Integration Continuous", "data visualization", "SSII", "Domain Specific Language", "Culture", "DSL", "options réelles", "éducation", "stories", "savoir-être", "rest", "TDD;Binômage", "Stress", "Visual Management", "prise de décision", "Git", "écoute", "Toyota Kata", "pouvoir", "communication non violente", "systèmes de recommandation", "Web Perf", "HTML", "soft skills", "Vagrant", "TDD", "Projet", "Semantic Search", "priorisation", "linked data", "Recherche", "design thinking", "La psychologie du travail" ],
+  "sessions" : [ 1011 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1005"
+    }
+  }
+}, {
+  "idMember" : 13,
+  "login" : "alfred.almendra",
+  "email" : "alfred.almendra@gmail.com",
+  "firstname" : "Alfred",
+  "lastname" : "Almendra",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "2be1fd2878821cca9006d3a5181700a7",
+  "sessionType" : null,
+  "shortDescription" : "Consultant indépendant en agilité, management, innovation, et lean startup",
+  "longDescription" : "Je forme et j'accompagne les individus, les équipes, et les entreprises de toutes tailles (de l'entrepreneur à la multinationale) et de tous secteurs (pharmacie, énergie, cosmétique, assurance, hospitalier, édition de logiciel, etc.).\n\n",
+  "userLinks" : [ {
+    "key" : "CARA Lyon",
+    "value" : "http://lyon.clubagilerhonealpes.org/"
+  }, {
+    "key" : "Blog",
+    "value" : "http://atelierlogiciel.wordpress.com"
+  } ],
+  "interests" : [ "Jeux Agiles", "Lean", "eXtrem Programming", "innovation", "Communauté", "Gestion de produit", "Forum Ouvert", "Apprentissage", "Agilité", "Entrepreneuriat", "User Experience", "Coaching", "TDD", "Kanban", "CARA", "Ergonomie", "Collaboration", "Amélioration continue", "Scrum", "Transition vers l'agilité", "Communication", "Lean Startup", "Agile" ],
+  "sessions" : [ 1051, 1021 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/13"
+    }
+  }
+}, {
+  "idMember" : 389,
+  "login" : "jhelou",
+  "email" : "jean.helou@gmail.com",
+  "firstname" : "Jean",
+  "lastname" : "Helou",
+  "company" : "Codamens",
+  "level" : null,
+  "logo" : null,
+  "hash" : "75da740d43c5780539214f24ce1148a6",
+  "sessionType" : null,
+  "shortDescription" : "Freelance, Software Craftsman, Agiliste\nScala, Java, Javascript, \n\n\n\n\n\n\n\n",
+  "longDescription" : "Jean Helou est développeur depuis 10 ans, passé Freelance lors de son arrivée à Lyon fin 2013. Avec un fort background en programmation impérative et objet, mais également de solides bases en programmations fonctionnelle il aime à combiner les deux approches. Curieux et passionné, il participait à l'organisation des Scala user groups parisiens et compte lancer leur équivalent lyonnais :)",
+  "userLinks" : [ {
+    "key" : "/src",
+    "value" : "https://github.com/jeantil"
+  } ],
+  "interests" : [ "Lean", "eXtrem Programming", "Play! Framework", "Guava", "CSS", "Scala", "Agilité", "Sonar", "jQuery", "Web design", "Rails", "Photography", "Jenkins", "HTML5", "Java8", "Continuous Integration", "Agile Testing", "OpenSource", "GTD", "Transition vers l'agilité", "Jigsaw", "Programmation Fonctionnelle", "Fest Assert", "Algorithmes", "JSON", "GitHub", "Craftsmanship", "Web 2.0", "Java 8", "JavaScript", ".Net", "distributed programming", "Ruby", "Java", "Enfants", "échec", "Backbone.js", "Mobile", "Git", "CQRS", "DevOps", "JavaEE", "IntelliJ IDEA", "BDD", "Maven", "DDD", "Eclipse", "Performances", "NodeJS", "Kanban", "AMQP", "WebSockets", "Story Mapping", "Scrum", "Partage et veille techno" ],
+  "sessions" : [ 1041 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/389"
+    }
+  }
+}, {
+  "idMember" : 631,
+  "login" : "florent.pellet",
+  "email" : "florent.pellet@gmail.com",
+  "firstname" : "Florent",
+  "lastname" : "Pellet",
+  "company" : "DevLyon",
+  "level" : null,
+  "logo" : null,
+  "hash" : "8f97f935f987a3d1252929bf6b32da1d",
+  "sessionType" : null,
+  "shortDescription" : "Développeur .NET / Javascript Freelance",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "DevLyon",
+    "value" : "http://devlyon.fr/"
+  }, {
+    "key" : "MUG Lyon",
+    "value" : "http://muglyon.github.io/"
+  }, {
+    "key" : "Hack Your Job",
+    "value" : "http://www.hackyourjob.com/"
+  }, {
+    "key" : "Blog",
+    "value" : "http://www.wittycoding.com/"
+  } ],
+  "interests" : [ "Clean Code", "CSS", "Agile User Experience", "Agilité", "RIA", "Domain Driven Design", "POO", "OOP", "Specflow", "CQRS", "Web", "CoffeeScript", "Jenkins", "HTML5", "Scalabilité", "développement", "Extreme Programming", "Continuous Integration", "Agile Testing", "Continuous Deployment", "Concurrence", "Transition vers l'agilité", "Philosophie", "C#", "Programmation Fonctionnelle", "Software Architecture", "Windows Phone", "Angular.js", "Communauté", "Design Patterns", "JSON", "Entrepreneuriat", "User Experience", "Angular", "Tests", "Beer", "TDD", "CARA", "UI", "Object Calisthenics", "JavaScript", "WebSockets", "Amélioration continue", ".Net", "Coding Dojo", "Zero Downtime Deployment", "architecture", "Agile" ],
+  "sessions" : [ 1041 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/631"
+    }
+  }
+}, {
+  "idMember" : 701,
+  "login" : "clem",
+  "email" : "clement.bouillier@devcrafting.com",
+  "firstname" : "Clément ",
+  "lastname" : "Bouillier",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "e187f8ea0d791446c5055882f0c597ee",
+  "sessionType" : null,
+  "shortDescription" : "Generalizing Specialist, intéressé par tous les aspects : fonctionnels, techniques et méthodologiques...",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ "Lean", "eXtrem Programming", "Clean Code", "Feature Flipping", "Forum Ouvert", "Agilité", "Organisation", "Sonar", "Tools", "Domain Driven Design", "Big Data", "OOP", "jQuery", "Specflow", "ajax", "Linux", "HTML5", "Extreme Programming", "Collaboration", "Continuous Integration", "OpenSource", "Continuous Deployment", "System Thinking", "MongoDB", "BigData", "Veille techno", "Transition vers l'agilité", "Virtualization", "Lean Startup", "Best Practices", "Software Architecture", "Communauté", "User Stories", "Entrepreneuriat", "Business Model", "NoSQL", "Open Space Technology", "CARA", "Rétrospective", "Amélioration continue", ".Net", "méthodes", "relation clients", "Domain Specific Language", "UX", "Refactoring", "Agile User Experience", "TDD;Binômage", "POO", "Git", "CQRS", "DevOps", "Scalabilité", "MVC", "Equipe", "Sociologie", "C#", "BDD", "Jeux Agiles", "Gestion de produit", "Design Patterns", "Qualité", "User Experience", "Open Space", "Beer", "TDD", "Kanban", "Coding Dojo", "architecture", "Agile" ],
+  "sessions" : [ 1041 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/701"
+    }
+  }
+}, {
+  "idMember" : 704,
+  "login" : "epecoul",
+  "email" : "epecoul@gmail.com",
+  "firstname" : "Emilien",
+  "lastname" : "Pecoul",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "569a344428936ce3b601ee3c12d8a100",
+  "sessionType" : null,
+  "shortDescription" : "Freelance, aimerait devenir un bon développeur logiciel! Evangéliste agile, fervent défenseur du TDD et du BDD.",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "blog",
+    "value" : "http://ouarzy.blog4ever.com/"
+  } ],
+  "interests" : [ "Agile User Experience", "Agilité", "TDD;Binômage", "User Experience", "Mobile", "Tests", "TDD", "fail", "Test", "Agile Testing", ".Net", "fun", "Agile" ],
+  "sessions" : [ 1041 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/704"
+    }
+  }
+}, {
+  "idMember" : 452,
+  "login" : "christophe.ney",
+  "email" : "cney@agenceinteractive.com",
+  "firstname" : "Christophe",
+  "lastname" : "NEY",
+  "company" : "Agence Interactive",
+  "level" : null,
+  "logo" : null,
+  "hash" : "79daa096b039951b29cd2de302dda894",
+  "sessionType" : null,
+  "shortDescription" : "Directeur Technique d'Agence Interactive, en recherche de compétences en développement Web et mobile. Coorganisateur d'Agile Innovation Lyon",
+  "longDescription" : "Ingénieur diplômé de l'Université de Paris-Sud Orsay (Paris XI) et de l'Ecole Nationale Supérieure de Techniques Avancées (ENSTA), Christophe Ney a plus de vingt ans d'expérience en ingénierie des systèmes d'information et de communication. Il a conçu, spécifié et développé des logiciels complexes dans des domaines comme la CAO, les serveurs d'application WEB, le knowledge management, l'e-tourisme et l'e-commerce. Impliqué depuis 1998 dans des projets collaboratifs et open-source, il a dirigé de nombreux projets et leurs équipes dans des environnements multiculturels et géographiquement distribués. Directeur de Projet à l'Institut National de Recherche en Informatique et Automatique (INRIA) de 2003 à 2006, il a été en charge de la direction d'ObjectWeb, un consortium international pour le développement coopératif d'une infrastructure logicielle industrielle pérenne en open-source. Impliqué depuis plusieurs années dans le développement de startups du Web2.0 en France et en Californie, il a rejoint en 2009 Agence Interactive, en tant que Directeur Technique Associé. En 2011, il contribue à l'organisation de Mix-It comme membre du CARA, il est cette année co-organisateur de la session de printemps d'Agile Innovation à Lyon le 12 juin 2012.",
+  "userLinks" : [ {
+    "key" : "SIte Perso",
+    "value" : "http://christophe.batisseurs.com"
+  }, {
+    "key" : "Agence Interactive",
+    "value" : "http://www.agenceinteractive.com"
+  }, {
+    "key" : "Agile Innovation 2012",
+    "value" : "http://www.agileinnovation.fr"
+  } ],
+  "interests" : [ "Jeux Agiles", "Lean", "eXtrem Programming", "OpenFramework", "Forum Ouvert", "Agilité", "Craftsmanship", "NodeJS", "Open Space", "TDD", "ElasticSearch", "Kanban", "CARA", "JavaScript", "PHP", "Agile Testing", "OpenSource", "MVC", "recrutement", "Lean Startup", "Partage et veille techno" ],
+  "sessions" : [ 1051 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/452"
+    }
+  }
+}, {
+  "idMember" : 1831,
+  "login" : "francois.garillot@typesafe.com",
+  "email" : "francois.garillot@typesafe.com",
+  "firstname" : "François",
+  "lastname" : "Garillot",
+  "company" : "Typesafe",
+  "level" : null,
+  "logo" : null,
+  "hash" : "c31408f16d316853d483d2742635ab04",
+  "sessionType" : null,
+  "shortDescription" : "Working on Spark, passionate about data analysis in Scala.",
+  "longDescription" : "François Garillot joined Typesafe in 2012 after an early stint in research, where he spoke frequently at international conferences. He is now working in Typesafe's Spark team, leveraging his Scala knowledge to improve Spark's support for scalable machine learning and data science applications.\n\nBased in Lausanne, he speaks at Swiss conferences and Scala user groups in Lyon and Paris. He recently spoke at Strata Hadoop Barcelona on how to make your next big data hackathon successful.",
+  "userLinks" : [ {
+    "key" : "Blog",
+    "value" : "http://blog.garillot.net"
+  } ],
+  "interests" : [ "akka", "calcul distribué", "spark", "Scala", "Big Data", "Machine Learning" ],
+  "sessions" : [ 1071 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1831"
+    }
+  }
+}, {
+  "idMember" : 5,
+  "login" : "romain",
+  "email" : "couturier.romain@gmail.com",
+  "firstname" : "Romain",
+  "lastname" : "Couturier",
+  "company" : "Terre d'Agile",
+  "level" : null,
+  "logo" : null,
+  "hash" : "918e67363e4361447d7a01c11da8a767",
+  "sessionType" : null,
+  "shortDescription" : "Prenez une équipe, un projet, quelques bonnes pratiques, et saupoudrez d'agilité (sans modération)",
+  "longDescription" : "Romain Couturier est coach agile, formateur et conférencier. En tant qu’artisan du changement, il accompagne les équipes et les organisations dans leur transition et évolution vers l’agilité dans les milieux IT. \nD’abord développeur chez un éditeur puis directeur technique dans une startup, il est confronté à la dure réalité des cycles de production logicielle, de la vision produit jusqu’au déploiement chez les utilisateurs. Alors organisé en méthodes traditionnelles de gestion de projet, il devient un véritable goulet d’étranglement pour les autres. En 2007, il tombe par hasard sur « l’agilité » et y trouvera enfin des réponses pour structurer de manière collaborative la production de livrable grâce à l’implication de ses équipes\nDébut 2012, Romain Couturier fonde Terre d’Agile. Il travaille désormais à unifier les équipes, trouver et développer de la valeur ajoutée produit avec les responsables métier et encourager les managers à déployer des contextes d'amélioration continue \n\nMembre actif du CARA Lyon et co-fondateur de Mix-IT, il est également activement impliqué dans les actions de diffusion et de promotion de l’agilité principalement à Lyon et en Rhône-Alpes. En 2012, il rejoint la Fédération Agile. ",
+  "userLinks" : [ {
+    "key" : "Terre d'Agile",
+    "value" : "http://www.terredagile.com"
+  }, {
+    "key" : "Blog",
+    "value" : "http://www.talondagile.fr"
+  }, {
+    "key" : "CARA Lyon",
+    "value" : "http://lyon.clubagilerhonealpes.org"
+  }, {
+    "key" : "CARA",
+    "value" : "http://clubagilerhonealpes.org"
+  } ],
+  "interests" : [ "Lean", "eXtrem Programming", "UX", "Agilité", "Organisation", "Sonar", "Management", "Mobile", "Web", "DevOps", "HTML5", "Cloud", "Collaboration", "Continuous Integration", "System Thinking", "Transition vers l'agilité", "Lean Startup", "Deming", "BDD", "Product Owner", "Gestion de produit", "Legacy", "Coaching", "iOS", "TDD", "Kanban", "Gouvernance", "Ergonomie", "Scrum" ],
+  "sessions" : [ 1121, 1131 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/5"
+    }
+  }
+}, {
+  "idMember" : 1951,
+  "login" : "clement",
+  "email" : "clement@delafargue.name",
+  "firstname" : "Clement",
+  "lastname" : "Delafargue",
+  "company" : "Clever Cloud",
+  "level" : null,
+  "logo" : null,
+  "hash" : "1f5af0c6efdf464a9aa0343204a84332",
+  "sessionType" : null,
+  "shortDescription" : "Software Engineer. Architecture & Functional Programming",
+  "longDescription" : "Clément Delafargue is an indepedendent consultant. A graduate from École Centrale de Nantes, he has been developing web projects since 2002. He can work both on frontend and backend, with various technologies (Javascript (on both frontend and backend), Ruby, Java, Scala). He is particularly interested in Functional Programming.\nVery passionate about tech and development, he has co-founded Eklaweb, a sur-mesure dev company in 2009. He has gathered a team of engineers and taught them functional programming. He’s now an indepedendent consultant and works with several startups, such as Clever-Cloud, and Sounderbox.\nBesides his work, he teaches computer programming at École Centrale de Nantes and IMIE (C, java, haskell, PHP, HTML/CSS, PL/SQL). He also teaches continuous integration and functional programming to Centrale Nantes students. He has created Nantes Functional Programming Group and gives talks about functional programming.",
+  "userLinks" : [ ],
+  "interests" : [ "Web", "functional programming", "Scala" ],
+  "sessions" : [ 1241 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1951"
+    }
+  }
+}, {
+  "idMember" : 2031,
+  "login" : "jesslynnrose",
+  "email" : "jessielynnrose@gmail.com",
+  "firstname" : "Jessica",
+  "lastname" : "Rose",
+  "company" : "Open Code",
+  "level" : null,
+  "logo" : null,
+  "hash" : "7bc75ea9d9cf50aff041a4af2009f666",
+  "sessionType" : null,
+  "shortDescription" : "Self taught programmer and communications expert focusing on tech education and outreach projects.",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Close to Clever",
+    "value" : "http://closetoclever.com"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 1301 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2031"
+    }
+  }
+}, {
+  "idMember" : 2051,
+  "login" : "LanLevy",
+  "email" : "l.levy@clt-services.com",
+  "firstname" : "Lan",
+  "lastname" : "LEVY",
+  "company" : "Coactiv, CLT-Services",
+  "level" : null,
+  "logo" : null,
+  "hash" : "e31038ac8891438e0a88a190106e4bce",
+  "sessionType" : null,
+  "shortDescription" : "Facilitatrice, formatrice et coach agile. Curieuse et passionnée,  je suis catalyseur de changements",
+  "longDescription" : "Lan est facilitatrice professionnelle certifiée (CPF), formatrice, membre actif de l’Association Internationale des Facilitateurs (IAF), membre fondateur et trésorière de l’IAF Paris. Elle a co-fondé et co-anime une communauté de pratique de changement. Son travail est forgé par la simplicité, la passion en intelligence collective et la conviction pour un monde équilibré.",
+  "userLinks" : [ ],
+  "interests" : [ "Facilitation", "coaching agile", "changement", "accompagnement", "formation", "dynamique de groupe" ],
+  "sessions" : [ 1311 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2051"
+    }
+  }
+}, {
+  "idMember" : 2061,
+  "login" : "alban.phelip",
+  "email" : "alban.phelip@gmail.com",
+  "firstname" : "Alban",
+  "lastname" : "Phélip",
+  "company" : "Xebia",
+  "level" : null,
+  "logo" : null,
+  "hash" : "3dc14f08e7bad2bf4a1fd2e4220a0122",
+  "sessionType" : null,
+  "shortDescription" : "Consultant Big Data chez Xebia France",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ "Hado", "Spar", "Big" ],
+  "sessions" : [ 1341 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2061"
+    }
+  }
+}, {
+  "idMember" : 2071,
+  "login" : "ybenoit",
+  "email" : "ybenoit@xebia.fr",
+  "firstname" : "Yoann",
+  "lastname" : "Benoit",
+  "company" : "Xebia",
+  "level" : null,
+  "logo" : null,
+  "hash" : "6fa0edd308b50104cf80071bcde80633",
+  "sessionType" : null,
+  "shortDescription" : "Data Scientist",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 1341 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2071"
+    }
+  }
+}, {
+  "idMember" : 497,
+  "login" : "damien.feugas",
+  "email" : "damien.feugas@gmail.com",
+  "firstname" : "Damien",
+  "lastname" : "Feugas",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "f8e027a039e6fb5e51b6ae58b67ba882",
+  "sessionType" : null,
+  "shortDescription" : "...",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 1351 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/497"
+    }
+  }
+}, {
+  "idMember" : 3411,
+  "login" : "domidepremorel",
+  "email" : "dominique.de.premorel@gmail.com",
+  "firstname" : "Dominique",
+  "lastname" : "de Prémorel",
+  "company" : "Operae Partners",
+  "level" : null,
+  "logo" : null,
+  "hash" : "bef53fce5e5963cada63d2e184d1f1ee",
+  "sessionType" : null,
+  "shortDescription" : "Coach Lean / Agile IT chez Operae Partners",
+  "longDescription" : "Je suis Dominique de Prémorel, coach Lean de la société Operae Partners, pionnière en France du management Lean dans l'IT et les services. Informaticienne avec 20 ans d'expérience, basée à Vannes, j'ai enseigné les méthodes Agile à l'UBS et je coache des PME bretonnes tout comme des entreprises du CAC40.\n\nPendant près de 10 ans, j'ai pratiqué les méthodes agiles, à commencer par XP, en tant qu’ingénieur développement et chef de projet dans des sociétés de service et chez des éditeurs de logiciel.\n\nAujourd'hui, j'accompagne au quotidien des entreprises dans la mise en place de leurs systèmes d’information et les aide à s’adapter aux changements de leur environnement grâce aux pratiques Lean. Fondatrice et animatrice du réseau Agile Morbihan et membre actif de l’association Agile Breizh, j'interviens pour la promotion et la diffusion de l’agilité dans la région Bretagne en lançant l’Agile Tour à Vannes depuis 2010.",
+  "userLinks" : [ {
+    "key" : "Le Petit Guide du Lean",
+    "value" : "http://leanagilecamp.fr/"
+  }, {
+    "key" : "Operae Partners",
+    "value" : "http://www.operaepartners.fr"
+  }, {
+    "key" : "Lean & SI",
+    "value" : "http://leansi.wp.mines-telecom.fr/"
+  } ],
+  "interests" : [ "Lean IT", "Obeya" ],
+  "sessions" : [ 1361 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/3411"
+    }
+  }
+}, {
+  "idMember" : 113,
+  "login" : "Angelique",
+  "email" : "angelique.jard@gmail.com",
+  "firstname" : "Angélique",
+  "lastname" : "Henry",
+  "company" : "Worldline",
+  "level" : null,
+  "logo" : null,
+  "hash" : "c9306cebd4c6e1b62ccdff8e45b3bd7b",
+  "sessionType" : null,
+  "shortDescription" : "Mac Gyver de l'IT, je suis curieuse et touche à tout, j'aime mixer les outils pour arriver à mes fins.",
+  "longDescription" : "Chez Worldline depuis 2006, je développe et maintient des applications en production. Je me suis pendant quelques années spécialisée dans le développement d'applications mobiles Android et iPhone avant de revenir vers les applications J2ee. J'ai maintenant un rôle transversal sur plusieurs équipes projets et j'apporte ma contribution et mon aide à la fois sur les phases de développement (qualité de code, intégration continue, tests unitaires, tests fonctionnels, outils de développement...) que sur la production (performances, analyse et correction des points de contentions, amélioration du monitoring...).",
+  "userLinks" : [ {
+    "key" : "Github",
+    "value" : "https://github.com/AngeliqueH"
+  } ],
+  "interests" : [ "eXtrem Programming", "JVM", "Java", "Agilité", "Eclipse", "Tools", "iOS", "Mobile", "Web", "HTML5", "JavaEE", "JavaScript", "Continuous Integration", "Scrum", "Transition vers l'agilité" ],
+  "sessions" : [ 1381 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/113"
+    }
+  }
+}, {
+  "idMember" : 2111,
+  "login" : "sjaillais",
+  "email" : "sjaillais@gmail.com",
+  "firstname" : "Simon",
+  "lastname" : "JAILLAIS",
+  "company" : "Orange Applications For Business",
+  "level" : null,
+  "logo" : null,
+  "hash" : "2724b99fa93937dda6919463927ea8e4",
+  "sessionType" : null,
+  "shortDescription" : "Facilitator, Agile Coach, Agile Tour Rennes organizer, Hackathon organizer, LeanStartup, DesignThinking, HowToChangeTheWorld enthusiast!",
+  "longDescription" : "Simon se décrit comme un agiliste convaincu et actif. C'est par Scrum qu'il a fait ses premières expériences agiles, il y a maintenant 5 ans. Aujourd'hui, il s'implique à travers l'association Agile Rennes et son Agile Tour, pour partager, sensibiliser autour des valeurs et des principes agiles. Il est facilitateur chez un acteur du SI bancaire et accompagne des équipes et des projets dans la mise en place de pratiques collaboratives. Curieux et ouvert, il aime particulièrement échanger sur la vision qu'ont les gens de l'agilité!",
+  "userLinks" : [ {
+    "key" : "Blog perso",
+    "value" : "http://sjaillais.wordpress.com"
+  }, {
+    "key" : "Linkedin",
+    "value" : "https://www.linkedin.com/profile/view?id=190279352"
+  }, {
+    "key" : "Viadeo",
+    "value" : "http://www.viadeo.com/fr/profile/simon.jaillais"
+  }, {
+    "key" : "Slideshare",
+    "value" : "http://fr.slideshare.net/SimonJaillais"
+  }, {
+    "key" : "Blog Agile Rennes",
+    "value" : "http://www.agilerennes.org"
+  } ],
+  "interests" : [ "Théatre d'improvisation théatrale", "Ludopédagogie", "design thinking", "Lean Startup", "Agile", "Entreprise libérée" ],
+  "sessions" : [ 1411 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2111"
+    }
+  }
+}, {
+  "idMember" : 2131,
+  "login" : "aurelien.morvant",
+  "email" : "aurelien.morvant@gmail.com",
+  "firstname" : "Aurélien",
+  "lastname" : "Morvant",
+  "company" : "Orange Applications for Business",
+  "level" : null,
+  "logo" : null,
+  "hash" : "88ff74e1323fe0aacfeaf8ed95738f5e",
+  "sessionType" : null,
+  "shortDescription" : "Facilitateur et coach agile",
+  "longDescription" : "Enzyme (au sens catalyseur) agile. Je suis passé par toutes les étapes de l’agilité – développeur agile puis scrum master et depuis quelques années coach/facilitateur. \nEn charge du déploiement de l’agilité chez ses partenaires, mais également en interne, je profite de toutes les occasions pour mettre en œuvre les valeurs agiles. \nMes domaines de prédilection sont la facilitation, les interactions humaines, l’agilité et les serious games. \nJe suis également président de l’association Agile Rennes qui promeut l’agilité sur une partie de la Bretagne. \nMa dernière passion est exercée tous les week-ends lorsque j’aide les plus courageux à sauter à l’élastique du haut d’un pont (une certaine forme de gestion du changement).?",
+  "userLinks" : [ {
+    "key" : "Agile Rennes",
+    "value" : "http://www.agilerennes.org"
+  }, {
+    "key" : "Slideshare",
+    "value" : "http://fr.slideshare.net/AurlienMorvant"
+  } ],
+  "interests" : [ "sérious games; facilitation graphique; intelligenc", "Agilité; saut à l'élastique" ],
+  "sessions" : [ 1411 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2131"
+    }
+  }
+}, {
+  "idMember" : 2141,
+  "login" : "antonio.goncalves",
+  "email" : "antonio.goncalves@gmail.com",
+  "firstname" : "Antonio",
+  "lastname" : "Goncalves",
+  "company" : "AGoncal Consulting",
+  "level" : null,
+  "logo" : null,
+  "hash" : "1fc6aa04011b2f0f9721df913b0fd415",
+  "sessionType" : null,
+  "shortDescription" : "\\#Developpeur #Indépendant #Java #JavaEE #JUG #JavaChampion #DevoxxFR #CastCodeurs #Auteur #BBL #Formateur #WhatElse",
+  "longDescription" : "Antonio Goncalves est un développeur senior qui vit à paris. Ancien de chez BEA il est aujourd'hui consultant Java EE indépendant avec une bonne expertise des serveurs d'application comme  JBoss, Weblogic ou GlassFish. Il est l'un des fondateurs du Paris Java User Group et plus récemment de Devoxx France. Antonio est aussi l'une des voix des CastCodeurs, auteur de livres sur Java EE.... et Java Champion.",
+  "userLinks" : [ {
+    "key" : "Blog",
+    "value" : "http://www.antoniogoncalves.org"
+  } ],
+  "interests" : [ "Java" ],
+  "sessions" : [ 1431 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2141"
+    }
+  }
+}, {
+  "idMember" : 2171,
+  "login" : "hsablonniere",
+  "email" : "hubert.sablonniere@gmail.com",
+  "firstname" : "Hubert",
+  "lastname" : "SABLONNIÈRE",
+  "company" : "INEAT Conseil",
+  "level" : null,
+  "logo" : null,
+  "hash" : "f7b7503324cbfd2a59aeb3540fa17bb1",
+  "sessionType" : null,
+  "shortDescription" : "Développeur Web curieux et passionné, je bidouille avec toutes les technos qui m'intéressent pour rendre service à mes utilisateurs.",
+  "longDescription" : "Hubert Sablonnière est un développeur Web passionné d’HTML, CSS et JavaScript.\n\nDepuis 6 ans il intervient chez INEAT Conseil en conseil et développement sur des projets Web (desktop et mobile). Habitué des plateformes Java et PHP, sa spécialité reste le JavaScript qu'il a enseigné pendant 2 ans.\n\nSur son temps libre, il bidouille sur différents projets open-source en essayant de pousser la plateforme Web jusqu'à ses limites.",
+  "userLinks" : [ {
+    "key" : "Mes autres présentations",
+    "value" : "http://lanyrd.com/profile/hsablonniere/"
+  } ],
+  "interests" : [ "Web", "CSS", "JavaScript", "HTML", "performance" ],
+  "sessions" : [ 1461 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2171"
+    }
+  }
+}, {
+  "idMember" : 2191,
+  "login" : "emmanuel.herve",
+  "email" : "eherveperso@gmail.com",
+  "firstname" : "Emmanuel",
+  "lastname" : "Herve",
+  "company" : "Orange Application for Business",
+  "level" : null,
+  "logo" : null,
+  "hash" : "cd688f11de2715c5b4a1245b637ddb5e",
+  "sessionType" : null,
+  "shortDescription" : "Facilitateur, Agile Coach at Orange Business Services",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 1491 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2191"
+    }
+  }
+}, {
+  "idMember" : 2311,
+  "login" : "luigi.dellaquila",
+  "email" : "luigi.dellaquila@gmail.com",
+  "firstname" : "Luigi",
+  "lastname" : "Dell'Aquila",
+  "company" : "Orient Technologies Ltd",
+  "level" : null,
+  "logo" : null,
+  "hash" : "3ff43a7f05c7ddd21701b35295298e99",
+  "sessionType" : null,
+  "shortDescription" : "Software developer, OpenSource enthusiast, Director of Consulting at Orient Technologies LTD. ",
+  "longDescription" : "Computer passionate since the age of 8, Luigi became a professional software developer and ICT consultant in 2005.\nIn 2014 he joined Orient Technologies as Director of Consulting, but he still actively works on OrientDB source code as a core developer.\n ",
+  "userLinks" : [ {
+    "key" : "OrientDB Website",
+    "value" : "http://www.orientechnologies.com"
+  } ],
+  "interests" : [ "OrientDB", "Java", "NoSQL", "JavaScript", "OpenSource", "Big Data", "Graph Databases", "Multi-Model Databases" ],
+  "sessions" : [ 1511 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2311"
+    }
+  }
+}, {
+  "idMember" : 160,
+  "login" : "vincent.daviet",
+  "email" : "vincent.daviet.pro@gmail.com",
+  "firstname" : "Vincent",
+  "lastname" : "Daviet",
+  "company" : "Zenika",
+  "level" : null,
+  "logo" : null,
+  "hash" : "5320948275e14a08565d1a23e0f84d3f",
+  "sessionType" : null,
+  "shortDescription" : "Coach agile, Scrum Master, facilitateur, formateur, et joueur (Innovation Games, Agile Games, Collaborative Games)",
+  "longDescription" : "Membre actif et passionné du [Club Agile Rhône-Alpes](http://clubagilerhonealpes.org) depuis 2009, Vincent rejoint l'équipe d'organisation de [Mix-IT](http://www.mix-it.fr) pour l'édition 2014.\nIl s'investit dans la vie associative agile : facilitation des soirées mensuelles sur Lyon, création d’ [Agile Lyon](http://lyon.clubagilerhonealpes.org/activites/activites-passees/saison-2013-2014/agile-lyon-2013), speaker dans les conférences agiles nationales, coding dojos, code retreat.\n\nIl a été pendant __3 ans Product Owner et ScrumMaster__ en agence web chez [Agence Interactive](http://agenceinteractive.com).\nPuis, il est tour à tour pendant __3 ans Développeur agile, Scrum Master, et Coach'Agile__ en SSII chez [Econocom-Osiatis](http://www.osiatis.fr/), avec des activités principalement pour le compte d’Orange France Télécom. __Depuis 2014, Consultant Agile__ chez [Zenika](http://www.zenika.com) & [Rupture(21](http://rupture21.com/) il accompagne les équipes de réalisation dans leur passage à l'agilité, aussi bien au niveau équipe que direction d'entreprise.\nParmi ses autres activités : __il forme et facilite__ lors de rassemblement d'équipes de réalisation, de comités de direction, de séminaires, ou de conférences.\n\nSa spécialité : faire collaborer les individus grâce aux __jeux agiles, d’innovation, et de collaboration.__\nIl les utilise, les détourne, les combine, et en crée sur-mesure, pour toutes les phases des activités entrepreneuriales : définition de vision, avant-vente, kick-off, mode projet, recrutement, séminaire, etc.",
+  "userLinks" : [ {
+    "key" : "babagile",
+    "value" : "http://babagile.wordpress.com"
+  } ],
+  "interests" : [ "Lean", "Forum Ouvert", "Agilité", "Validate Influencing", "Impact Mapping", "Management", "jQuery", "Collaboration", "Continuous Integration", "System Thinking", "Transition vers l'agilité", "Lean Startup", "fun", "Best Practices", "imprimante 3D", "Communauté", "Algorithmes", "User Stories", "CDI", "Entrepreneuriat", "Coaching", "Web 2.0", "iOS", "Business Model", "CARA", "UI", "Feedback", "Rétrospective", "Ergonomie", "Amélioration continue", "Communication", "UX", "Agile User Experience", "motivational design (gamification)", "Stress", "google", "Mobile", "Web", "DevOps", "Cloud", "Startup", "Jeux Agiles", "Product Owner", "Gestion de produit", "Respect", "Design Patterns", "User Experience", "Open Space", "Adoption", "TDD", "pair programming", "Kanban", "Gouvernance", "Planning Poker", "Story Mapping", "Coding Dojo", "Scrum", "Jeux", "Agile", "La psychologie du travail" ],
+  "sessions" : [ 1581 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/160"
+    }
+  }
+}, {
+  "idMember" : 601,
+  "login" : "gery.derbier",
+  "email" : "gery.derbier@gmail.com",
+  "firstname" : "Géry",
+  "lastname" : "Derbier",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "b1889ba8ce9fa0254e1bc68c01a32258",
+  "sessionType" : null,
+  "shortDescription" : "Considère le développement de logiciel comme un jeu coopératif d'invention et de communication économiquement contraint. ",
+  "longDescription" : "Géry Derbier travaille dans l'industrie du logiciel depuis la fin des années 80. Il a développé une expertise sur le développement agile depuis l'apparition de ce mouvement. Il a travaillé pour l'industrie, l'édition de logiciel et le service. Il considère le développement de logiciel comme un jeu coopératif d'invention et de communication économiquement contraint.",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 1581 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/601"
+    }
+  }
+}, {
+  "idMember" : 285,
+  "login" : "rochejul",
+  "email" : "jroche@objetdirect.com",
+  "firstname" : "Julien",
+  "lastname" : "Roche",
+  "company" : "Objet Direct / Viseo Technologies",
+  "level" : null,
+  "logo" : null,
+  "hash" : "86d6a2408c7439438c3f653c6ab4d1da",
+  "sessionType" : null,
+  "shortDescription" : "Développeur et accro Web, web mobile, web mobile hybride. Parfois je reviens à mes origines: le Java server :)",
+  "longDescription" : "Je suis développeur à Objet Direct Grenoble depuis 7 ans désormais.\n\nDans mes débuts de développeurs, j'étais plutôt Java-iste. Et j'avoue avoir été séduit de plus en plus par le côté Web, avec HTML5, CSS3 (où j'ai publié des articles sur Programmez, et aussi animer des conférences aux Human Talks, et des quickies au Devoxx).\n\nEt plus le temps passe, plus je ne regrette pas de coder en JavaScript, où j'ai appris la puissance de ce langage, et découvert les outils tournant tout autour de cela (PhoneGap, ChromeDevTools, NodeJs, GruntJS, Gulp ...).\n\nBref, je suis un passionné :)\n\n\n\n\n\n",
+  "userLinks" : [ {
+    "key" : "wiQuery",
+    "value" : "http://code.google.com/p/wiquery/"
+  }, {
+    "key" : "LinkedIn",
+    "value" : "http://www.linkedin.com/pub/julien-roche/13/b98/233"
+  }, {
+    "key" : "Github",
+    "value" : "https://github.com/rochejul"
+  } ],
+  "interests" : [ "Clean Code", "Java", "CSS", "Sonar", "RIA", "Réseau", "Backbone.js", "Spring", "Mobile", "Git", "jQuery", "Web", "UML", "HTML5", "JavaEE", "développement", "Continuous Integration", "OpenSource", "IntelliJ IDEA", "Veille techno", "Best Practices", "BDD", "Maven", "Angular.js", "Design Patterns", "JSON", "GitHub", "Web 2.0", "Angular", "Tests", "SQLite", "PhantomJS", "JavaScript", "WebSockets", "Twitter Bootstrap", "Partage et veille techno" ],
+  "sessions" : [ 1651 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/285"
+    }
+  }
+}, {
+  "idMember" : 2441,
+  "login" : "mojavelinux",
+  "email" : "dan.j.allen@gmail.com",
+  "firstname" : "Dan",
+  "lastname" : "Allen",
+  "company" : "OpenDevise",
+  "level" : null,
+  "logo" : null,
+  "hash" : "dcccd96c499963133f7f95e7ffa20c4e",
+  "sessionType" : null,
+  "shortDescription" : "Open Source Software Developer, Community Catalyst & JVM Polyglot Champion. Lead of the Asciidoctor project.",
+  "longDescription" : "Dan is an open source advocate, community catalyst, developer, published author (Seam in Action) and internationally recognized speaker. He is the lead of the Asciidoctor project (asciidoctor.org), serves as the strategic advisor for Arquillian (arquillian.org) and helps promote the JVM as a polyglot Java Champion.\n\nAs one of the founders of OpenDevise, Dan works with software communities and businesses to help them communicate their value and cultivate their open source way. (Is there any other way?)\n\nAfter a long conference day, you'll likely find Dan enjoying chatting about tech, docs and open source with fellow community members over a Trappist beer or Kentucky Bourbon.",
+  "userLinks" : [ {
+    "key" : "Asciidoctor",
+    "value" : "http://asciidoctor.org"
+  } ],
+  "interests" : [ "open source", "documentation", "AsciiDoc", "testing", "Gradle", "strategy", "Ruby", "Groovy" ],
+  "sessions" : [ 1701 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2441"
+    }
+  }
+}, {
+  "idMember" : 2521,
+  "login" : "corinnekrych",
+  "email" : "corinnekrych@gmail.com",
+  "firstname" : "Corinne",
+  "lastname" : "Krych",
+  "company" : "Red Hat",
+  "level" : null,
+  "logo" : null,
+  "hash" : "20a907ee0ab0e4756e19727209d0ac64",
+  "sessionType" : null,
+  "shortDescription" : "Développeur au féminin, le mobile est mon terrain de jeu, AeroGear ma famille open source et iOS ma plate-forme de coeur.",
+  "longDescription" : "Curieuse et trendy (développeur au féminin), polyglot par essence, avec une forte addiction au clean code, le mobile est mon nouveau terrain de jeu, AeroGear ma famille open source et iOS ma plate-forme de coeur.\niOS tech lead for Red Hat.\n@corinnekrych",
+  "userLinks" : [ {
+    "key" : "blog",
+    "value" : "http://corinnekrych.org"
+  } ],
+  "interests" : [ "iOS", "Mobile" ],
+  "sessions" : [ 1771 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2521"
+    }
+  }
+}, {
+  "idMember" : 2531,
+  "login" : "searls",
+  "email" : "justin@testdouble.com",
+  "firstname" : "Justin",
+  "lastname" : "Searls",
+  "company" : "Test Double",
+  "level" : null,
+  "logo" : null,
+  "hash" : "4fdf06ef4b312b864accf921af6c2f79",
+  "sessionType" : null,
+  "shortDescription" : "Co-founder at @testdouble",
+  "longDescription" : "Justin Searls has two professional passions: writing great software and sharing what he’s learned to help others write even greater software. He helped start a software agency called Test Double, whose crack team of double agents solve complex problems with clean and simple solutions.",
+  "userLinks" : [ {
+    "key" : "Blog",
+    "value" : "http://blog.testdouble.com"
+  }, {
+    "key" : "Company",
+    "value" : "http://testdouble.com"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 1791 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2531"
+    }
+  }
+}, {
+  "idMember" : 1611,
+  "login" : "sebmade",
+  "email" : "sebastien.letelie@gmail.com",
+  "firstname" : "Sébastien",
+  "lastname" : "Letélié",
+  "company" : "ITaware",
+  "level" : null,
+  "logo" : null,
+  "hash" : "7b9c109b029433c9f5b79250e8e349de",
+  "sessionType" : null,
+  "shortDescription" : "resolve problems with innovative technologies\ndeveloper, entrepreneur, health innovator, angularjs lover ",
+  "longDescription" : "Après 10 ans passé à développer une entreprise dans la santé je promouvois les approches de développement collaborative de projet tout en continuant à coder. De développeur à entrepreneur en passant par commercial, admin réseau, un peu de marketing et de communication, le développement d'une startup est une vrai aventure à laquelle je continue participer activement sur différents projets.\nLeader européen du mouvement [Hacking Health](http://hackinghealth.ca) pour l'innovation en santé j'organise des [hackathons dédiés à la santé](http://hackinghealth.camp).\nDésormais indépendant j'offre mes services en innovation et développement aux entreprises et investis dans les startups.\n\n",
+  "userLinks" : [ {
+    "key" : "Hacking Health Camp",
+    "value" : "http://hackinghealth.camp"
+  }, {
+    "key" : "ITaware",
+    "value" : "http://itaware.eu"
+  } ],
+  "interests" : [ "innovation", "JavaScript", "Entrepreneuriat", "developpment", "Lean Startup" ],
+  "sessions" : [ 1801 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1611"
+    }
+  }
+}, {
+  "idMember" : 2391,
+  "login" : "ornicar",
+  "email" : "thibault.duplessis@gmail.com",
+  "firstname" : "Thibault",
+  "lastname" : "Duplessis",
+  "company" : "Zengularity",
+  "level" : null,
+  "logo" : null,
+  "hash" : "197652601405656c383fc505dc185759",
+  "sessionType" : null,
+  "shortDescription" : "Functionnal programmer and open source enthusiast, I'm a developer at prismic.io and the founder of lichess.org. ",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Github",
+    "value" : "https://github.com/ornicar"
+  }, {
+    "key" : "my hobby website",
+    "value" : "http://lichess.org"
+  } ],
+  "interests" : [ "open source", "functional programming", "Scala", "Clojure", "MongoDB", "Haskell" ],
+  "sessions" : [ 1821 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2391"
+    }
+  }
+}, {
+  "idMember" : 618,
+  "login" : "DamienDuportal",
+  "email" : "damien.duportal@gmail.com",
+  "firstname" : "Duportal",
+  "lastname" : "Damien",
+  "company" : "Atos Worldline",
+  "level" : null,
+  "logo" : null,
+  "hash" : "da0509c09b512df9b024325437f76958",
+  "sessionType" : null,
+  "shortDescription" : "DevOps Engineer @ Worldline. Human stack focused.",
+  "longDescription" : "Keep calm and use the source Luke. \nWow !\nSuch automation,\nMuch agnostism\nSo human",
+  "userLinks" : [ {
+    "key" : "My github account",
+    "value" : "https://github.com/dduportal"
+  } ],
+  "interests" : [ "eXtrem Programming", "Clean Code", "C++", "Clustering", "CSS", "Agilité", "Docker", "Backbone.js", "Platform as a Service", "POO", "jQuery", "SIG", "Linux", "HTML5", "Cloud", "Agile Testing", "OpenSource", "Pip", "Ansible", "Flex", "API", "Dokku", "Virtualization", "Cache", "cloudfoundry", "BDD", "PostgreSQL", "Angular.js", "Chef", "GitHub", "Performances", "Coaching", "iOS", "Vagrant", "NodeJS", "Sécurité informatique", "AMQP", "JavaScript", "PHP", "Open Shift", "architecture", "algorithmics", "Flynn" ],
+  "sessions" : [ 1881 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/618"
+    }
+  }
+}, {
+  "idMember" : 2351,
+  "login" : "JM_Meessen",
+  "email" : "jean-marc@meessen-web.org",
+  "firstname" : "Jean-Marc",
+  "lastname" : "MEESSEN",
+  "company" : "Worldline",
+  "level" : null,
+  "logo" : null,
+  "hash" : "6cced83e872851d1325036dc1b9dab27",
+  "sessionType" : null,
+  "shortDescription" : "A perpetual learner, admirative of all the cool stuff out there.",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 1881 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2351"
+    }
+  }
+}, {
+  "idMember" : 7,
+  "login" : "mathieu",
+  "email" : "mathieu.calba@gmail.com",
+  "firstname" : "Mathieu",
+  "lastname" : "Calba",
+  "company" : "Capitaine Train",
+  "level" : null,
+  "logo" : null,
+  "hash" : "9949dfe0542bd0fd32676d63c97a625f",
+  "sessionType" : null,
+  "shortDescription" : "Android Developer who likes good UI/UX. Helping you traveling with train at Capitaine Train. Organizing Member of the GDG Lyon Android.",
+  "longDescription" : "Android Developer who likes good UI/UX. Helping you traveling with train at Capitaine Train. Organizing Member of the GDG Lyon Android.",
+  "userLinks" : [ ],
+  "interests" : [ "eXtrem Programming", "Java", "UX", "Agilité", "Organisation", "Tools", "Management", "Mobile", "POO", "Git", "HTML5", "Cloud", "Collaboration", "Continuous Integration", "System Thinking", "Transition vers l'agilité", "Gestion de produit", "JSON", "GitHub", "Eclipse", "iOS", "TDD", "Projet", "Ergonomie", "Scrum" ],
+  "sessions" : [ 1941 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/7"
+    }
+  }
+}, {
+  "idMember" : 451,
+  "login" : "johan.poirier",
+  "email" : "johan.poirier@gmail.com",
+  "firstname" : "Johan",
+  "lastname" : "Poirier",
+  "company" : "TEA",
+  "level" : null,
+  "logo" : null,
+  "hash" : "70b4fb2aaa21f722a748de42b8b7b606",
+  "sessionType" : null,
+  "shortDescription" : "Développeur Web",
+  "longDescription" : "J'aime le web et j'y consacre mes journées. Malgré mon passé de développeur Java, je profite de mon temps chez TEA pour explorer les dernières nouveautés de la plate-forme du futur.",
+  "userLinks" : [ {
+    "key" : "GitHub",
+    "value" : "https://github.com/johanpoirier"
+  } ],
+  "interests" : [ "Git", "Photography", "TDD", "Web", "CSS", "HTML5", "Ember.JS", "Backbone.js", "Mobile", "raspberry pi", "Android", "FirefoxOS" ],
+  "sessions" : [ 1971 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/451"
+    }
+  }
+}, {
+  "idMember" : 114,
+  "login" : "Cuicui",
+  "email" : "nicolas.cuillery@gmail.com",
+  "firstname" : "Nicolas",
+  "lastname" : "Cuillery",
+  "company" : "Zenika",
+  "level" : null,
+  "logo" : null,
+  "hash" : "b08fd9671af78445d19048228a8f3d59",
+  "sessionType" : null,
+  "shortDescription" : "Consultant formateur Java/Web @ Zenika et contributeur open-source compulsif",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 1991, 1981 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/114"
+    }
+  }
+}, {
+  "idMember" : 105,
+  "login" : "Swiip",
+  "email" : "matthieu.lux@gmail.com",
+  "firstname" : "Matthieu",
+  "lastname" : "Lux",
+  "company" : "Zenika",
+  "level" : null,
+  "logo" : null,
+  "hash" : "27bd774790e70807a5489b31f668a71e",
+  "sessionType" : null,
+  "shortDescription" : "Dev & Formateur @ Zenika Lyon, fan du Web & JS (Angular, Gulp, Node), administrateur du LyonJS",
+  "longDescription" : "Développeur, formateur et responsable de l'offre Web au sein de l'agence lyonnaise de Zenika.\n\nAprès une solide expérience dans le monde Java, je suis focalisé aujourd'hui sur le monde du Web et du JavaScript. Plus précisément, mes technologies de prédilection sont actuellement Angular, Gulp, Yeoman, Node et React.\n\nJ'ai également donné un certain nombre de talks sur Angular au MixIt, mais aussi au DevoxxFR et même au [ngEurope](https://www.youtube.com/watch?v=Mk2WwSxK218)\n\nJ'organise également le LyonJS, le meetup JavaScript de Lyon [http://www.meetup.com/LyonJS/](http://www.meetup.com/LyonJS/)\n\nJ'ai enfin crée un générateur Yeoman [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular) qui propose le démarrage de projets basées sur les technologies Angular & Gulp.",
+  "userLinks" : [ {
+    "key" : "Generator gulp-angular",
+    "value" : "https://github.com/Swiip/generator-gulp-angular"
+  } ],
+  "interests" : [ "Hibernate", "JVM", "Java", "ES6", "GitHub", "React", "Spring", "Mobile", "POO", "NodeJS", "Git", "jQuery", "Web", "CoffeeScript", "HTML5", "JavaScript", "Cloud", "Continuous Integration", "MongoDB", "Dart" ],
+  "sessions" : [ 1991 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/105"
+    }
+  }
+}, {
+  "idMember" : 2651,
+  "login" : "SuperFlaw",
+  "email" : "florent.lepretre@zenika.com",
+  "firstname" : "Florent",
+  "lastname" : "Lepretre",
+  "company" : "Zenika",
+  "level" : null,
+  "logo" : null,
+  "hash" : "fc90a497f282bffa8ce8eb37cfc2dea2",
+  "sessionType" : null,
+  "shortDescription" : "Consultant développement web",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 1991 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2651"
+    }
+  }
+}, {
+  "idMember" : 973,
+  "login" : "julienviet",
+  "email" : "julien@julienviet.com",
+  "firstname" : "julien",
+  "lastname" : "VIET",
+  "company" : "exo platform",
+  "level" : null,
+  "logo" : null,
+  "hash" : "cb52062fbd7e159b54e3c298d622fe72",
+  "sessionType" : null,
+  "shortDescription" : "Java developer since 1997 and Open Source contributor since 2001",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "GitHub profile",
+    "value" : "https://github.com/vietj"
+  } ],
+  "interests" : [ "Langage dynamique", "CSS", "Hadoop", "polyglot", "Code", "OOP", "reactive programming", "Photography", "ajax", "Java8", "Collaboration", "OpenSource", "Concurrence", "API", "BigData", "Module", "Dart", "imprimante 3D", "JVM", "PostgreSQL", "Algorithmes", "JSON", "Java 8", "Java SE", "lambda", "Byteman", "Bytecode", "Architecture Octogonale", "DSL", "Haskell", "Vert.x", "Plugins", "JVM platform", "Facilitation", "Java", "Refactoring", "Grails", "rest", "Geospatial", "Ceylon", "Git", "fablab", "Responsive Web Design", "Game Development", "Le jambon de Bayonne", "Java EE", "Design Patterns", "JavaSE", "auth", "Groovy", "Gouvernance", "regular expressions", "architecture", "algorithmics" ],
+  "sessions" : [ 2061 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/973"
+    }
+  }
+}, {
+  "idMember" : 62,
+  "login" : "brian.clozel",
+  "email" : "bclozel@pivotal.io",
+  "firstname" : "Brian",
+  "lastname" : "Clozel",
+  "company" : "Pivotal Inc.",
+  "level" : null,
+  "logo" : null,
+  "hash" : "7f6b3d65ae30e6fec52287f34e22dcb0",
+  "sessionType" : null,
+  "shortDescription" : "Spring Framework team member.",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "github",
+    "value" : "https://github.com/bclozel"
+  }, {
+    "key" : "spring team",
+    "value" : "http://spring.io/team"
+  }, {
+    "key" : "linkedin",
+    "value" : "http://www.linkedin.com/in/brianclozel"
+  } ],
+  "interests" : [ "BDD", "Maven", "JVM", "Java", "rest", "hypermedia", "Domain Driven Design", "Spring", "Java 8", "NodeJS", "Symfony 2", "ElasticSearch", "RabbitMQ", "HTML5", "Java8", "JavaScript", "PHP", "WebSockets", "OpenSource", "MVC", "IntelliJ IDEA", "Dart" ],
+  "sessions" : [ 2081, 2451 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/62"
+    }
+  }
+}, {
+  "idMember" : 1072,
+  "login" : "vladislav.pernin",
+  "email" : "vladislav.pernin@gmail.com",
+  "firstname" : "Vladislav",
+  "lastname" : "Pernin",
+  "company" : "ERDF",
+  "level" : null,
+  "logo" : null,
+  "hash" : "edc84722f6c279f6a3ef1584fc03acff",
+  "sessionType" : null,
+  "shortDescription" : "Architecte chez ERDF",
+  "longDescription" : "Je suis architecte chez ErDF. Passionné depuis plus de dix ans par l'écosystème Java, je s'intéresse tout particulièrement aux domaines de l'intégration et du déploiement continu, aux problématiques de performances, de monitoring et de tuning avancé sur la stack Java complète et enfin au BigData.",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 2141 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/1072"
+    }
+  }
+}, {
+  "idMember" : 597,
+  "login" : "morlhon",
+  "email" : "jeanlaurent@morlhon.net",
+  "firstname" : "Jean-Laurent",
+  "lastname" : "de Morlhon",
+  "company" : "Xebia",
+  "level" : null,
+  "logo" : null,
+  "hash" : "649d3668d3ba68e75a3441dec9eac26e",
+  "sessionType" : null,
+  "shortDescription" : "Programmeur indépendant. CTO @ Serpodile. #craftsmanship",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ "BDD", "Java", "SVG", "JSON", "Agilité", "GitHub", "Legacy", "Impact Mapping", "Craftsmanship", "Backbone.js", "NodeJS", "jQuery", "ElasticSearch", "CoffeeScript", "Linux", "Yeoman", "Java8", "JavaScript", "Ember.JS", "Story Mapping", "MongoDB", "API", "Equipe", "Programmation Fonctionnelle" ],
+  "sessions" : [ 2161 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/597"
+    }
+  }
+}, {
+  "idMember" : 2541,
+  "login" : "claire.morin",
+  "email" : "claire.morin@zenika.com",
+  "firstname" : "Claire",
+  "lastname" : "Morin",
+  "company" : "Zenika",
+  "level" : null,
+  "logo" : null,
+  "hash" : "6c1c4f70b7fc367dd07699014632141c",
+  "sessionType" : null,
+  "shortDescription" : "Product Owner / Coach Product Owner",
+  "longDescription" : "Passionnée depuis mes études par les problématiques d'innovation, et de conduite du changement, je découvre l'Agilité dès ma première expérience de consultante en tant que Product Owner. Depuis je cherche toutes les sources d'inspiration pour m'améliorer dans mes pratiques et aller plus loin dans la compréhension de ces systèmes complexes que peuvent être les équipes projets et la façon dont un produit peut répondre aux mieux aux attentes sous contraintes. Je travaille actuellement comme Product Owner / Coach Product Owner à Zenika.",
+  "userLinks" : [ {
+    "key" : "Profil LinkedIn",
+    "value" : "http://fr.linkedin.com/in/morinclaire"
+  } ],
+  "interests" : [ "Kanban", "Product Management", "Agilité", "product ownership", "agile UX", "Scrum", "design thinking" ],
+  "sessions" : [ 2211, 2181 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2541"
+    }
+  }
+}, {
+  "idMember" : 2771,
+  "login" : "laure_delahaye",
+  "email" : "bikinikill24@gmail.com",
+  "firstname" : "Laure",
+  "lastname" : "Delahaye",
+  "company" : "Freelance ",
+  "level" : null,
+  "logo" : null,
+  "hash" : "37e5af97a500e21fe0993d47e330dd29",
+  "sessionType" : null,
+  "shortDescription" : "Directrice Artistique – Digital – Paris",
+  "longDescription" : "Je suis Directrice Artistique à Paris.\nMon activité principale est le design d'interface orienté utilisateur.\nJe dessine aussi dans des carnets aux crayons, stylo, mais aussi sur tous les supports qui se présentent, journaux, nappe en papier.\nJe suis également co-fondatrice et éditrice en chef du web mag : webculte.fr.\n\n",
+  "userLinks" : [ {
+    "key" : "Portfolio",
+    "value" : "http://laure-delahaye.com/"
+  } ],
+  "interests" : [ "art", "dessin" ],
+  "sessions" : [ 2211, 2181 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2771"
+    }
+  }
+}, {
+  "idMember" : 2081,
+  "login" : "cedricbodin",
+  "email" : "cedric.bodin@gmail.com",
+  "firstname" : "Cédric",
+  "lastname" : "Bodin",
+  "company" : "Orange Applications for Business",
+  "level" : null,
+  "logo" : null,
+  "hash" : "d22244b43be7f7d8a4fc6204259e1394",
+  "sessionType" : null,
+  "shortDescription" : "Coach agile & facilitateur pro, j’essaye d’aider les individus/organisations à re-devenir agiles.\nMa vision: agilité = humanisme+discipline",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Linkedin",
+    "value" : "https://www.linkedin.com/in/cedricbodin/"
+  }, {
+    "key" : "Blog",
+    "value" : "http://cedricbodin.net/"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 2191 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2081"
+    }
+  }
+}, {
+  "idMember" : 2431,
+  "login" : "carbonfray",
+  "email" : "sarah@opendevise.io",
+  "firstname" : "Sarah",
+  "lastname" : "White",
+  "company" : "OpenDevise",
+  "level" : null,
+  "logo" : null,
+  "hash" : "b2db51c1646378b61a4aa1dd06e70a27",
+  "sessionType" : null,
+  "shortDescription" : "Co-lead of Asciidoctor. Open source advocate and contributor. Creator of happy endings, alien invasions, and documentation adventures.",
+  "longDescription" : "Sarah is the co-founder of OpenDevise and the co-lead of Asciidoctor. She’s passionate about helping open source projects find practical yet fun ways to communicate with their users and contributors.\n\nLong ago, in a not-too-distant galaxy, she assessed hazardous waste sites and tracked pesticide routes through watersheds. So she knows a thing or two about identifying and eradicating stuff that kills projects, including poor documentation.",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 2281 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2431"
+    }
+  }
+}, {
+  "idMember" : 596,
+  "login" : "phil.antoine",
+  "email" : "phil.antoine@gmail.com",
+  "firstname" : "Philippe",
+  "lastname" : "Antoine",
+  "company" : "Xebia Studio",
+  "level" : null,
+  "logo" : null,
+  "hash" : "688958fbc93d79c3997fdb2e11b02a32",
+  "sessionType" : null,
+  "shortDescription" : "HTML5 mobile web apps",
+  "longDescription" : "Philippe est SCRUM Master chez Xebia mais pas seulement: HTML5 n'a plus de secret pour lui et javascript est sa deuxième langue maternelle. Le jour il développe en équipe des applications web mobiles, la nuit il éxpérimente les dernières nouveautés techniques. Toujours disponible pour des dicussions passionnées, vous le croiserez surement dans les différents évenements à Paris: Devoxx, JavaCamp, ParisJS, Coding Dojo, Agile Tour...",
+  "userLinks" : [ ],
+  "interests" : [ "eXtrem Programming", "Clean Code", "Play! Framework", "CSS", "Forum Ouvert", "Tools", "Réseau", "web semantique", "jQuery", "Web design", "Jenkins", "HTML5", "Agile Testing", "OpenSource", "Veille techno", "Lean Startup", "Programmation Fonctionnelle", "Fest Assert", "Software Architecture", "Angular.js", "JSON", "GitHub", "NoSQL", "Open Space Technology", "UI", "Rétrospective", "JavaScript", "Communication", "Ruby", "SocketIO", "WebGL", "UX", "Agile User Experience", "rest", "Backbone.js", "Mobile", "Git", "Web", "UML", "CoffeeScript", "JavaEE", "IntelliJ IDEA", "Game Development", "Startup", "Jeux Agiles", "SVG", "Qualité", "Performances", "NodeJS", "JIRA", "SQLite", "Open Space", "Sécurité informatique", "TDD", "Yeoman", "Projet", "WebSockets", "Story Mapping", "Coding Dojo", "Scrum", "Twitter Bootstrap", "Oracle" ],
+  "sessions" : [ 2291 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/596"
+    }
+  }
+}, {
+  "idMember" : 2781,
+  "login" : "Sameh",
+  "email" : "sbenfredj@xebia.fr",
+  "firstname" : "Sameh",
+  "lastname" : "BEN FREDJ",
+  "company" : "Xebia",
+  "level" : null,
+  "logo" : null,
+  "hash" : "f02a4fb1606e6f98dd3ca1cd5d183448",
+  "sessionType" : null,
+  "shortDescription" : "PhD, software engineer, Xebia consultant, IoT & Big Data passionnante, Java lover.",
+  "longDescription" : "Sameh est consultante objets connectés chez Xebia. Avant de rejoindre Xebia elle était ingénieur R&D chez Alcatel-Lucent Bell Labs où elle a effectué sa thèse de doctorat dans le domaine de l'Internet des Objet (IoT). Elle a travaillé sur les problématiques de interopérabilité et de la découverte des services  IoT dans des espaces intelligents. Sameh est aussi passionnée de Java et de Big Data. ",
+  "userLinks" : [ ],
+  "interests" : [ "Java", "Big Data", "iot" ],
+  "sessions" : [ 2291 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2781"
+    }
+  }
+}, {
+  "idMember" : 2821,
+  "login" : "dbakhti",
+  "email" : "dbakhti@gmail.com",
+  "firstname" : "Djilali",
+  "lastname" : "Bakhti",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "a4ed3a3e289ea1f22e1de9f1bfa896c8",
+  "sessionType" : null,
+  "shortDescription" : "QA Lead sur la plateforme Decision Insight",
+  "longDescription" : "",
+  "userLinks" : [ ],
+  "interests" : [ ],
+  "sessions" : [ 2311 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2821"
+    }
+  }
+}, {
+  "idMember" : 2831,
+  "login" : "thebrousse",
+  "email" : "cbrousseau@thingsaremoving.com",
+  "firstname" : "Christian",
+  "lastname" : "Brousseau",
+  "company" : "Things Are Moving",
+  "level" : null,
+  "logo" : null,
+  "hash" : "692fac0f6ac1514095ea5c97834eaa29",
+  "sessionType" : null,
+  "shortDescription" : "Canadian living in France. Husband, father of 2. Founder and CEO of Things Are Moving, Titanium Book Author. Just follow the accent...",
+  "longDescription" : "Christian Brousseau is a proud Canadian who has been developing software for over twenty years. He made his debut in Windows Development and then moved on to Java when the web came along. About thirteen years ago he had the opportunity to move to France, where he worked on major Java Enterprise projects for one of the largest software companies in the world for different sectors. (Banking, insurance, retail, government and defines)\n\nOver the last few years, he became very enthusiast about mobile platforms in general and has developed quite a few applications for iOS and Android devices using the Appcelerator Titanium platform. He is very active within the community; being a Titanium-certified application developer and a member of the Titans evangelist group. He is also in the Top 10 contributors on the Appcelerator Questions and Answers forum.\n\nStill living in Paris, he left the Enterprise world and created his own company, Things Are Moving (http://www.thingsaremoving.com). A mobile development company that builds applications for iOS, Android, Blackberry and Windows Phone.\n\n",
+  "userLinks" : [ ],
+  "interests" : [ "native", "JavaScript", "enterprise", "iOS", "Mobile", "Android" ],
+  "sessions" : [ 2321 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2831"
+    }
+  }
+}, {
+  "idMember" : 2861,
+  "login" : "notarianni",
+  "email" : "bernard.notarianni@gmail.com",
+  "firstname" : "Bernard",
+  "lastname" : "Notarianni",
+  "company" : "Umolelo",
+  "level" : null,
+  "logo" : null,
+  "hash" : "06d1a6e968770e0b7b7257fd768fc252",
+  "sessionType" : null,
+  "shortDescription" : "Créateur de logiciels. Coach agile. XP &  Software Craftmanship. Co-organisateur d'Agile Open France.",
+  "longDescription" : "Bernard est créateur de logiciels d'entreprise depuis 20 ans, Coach agile depuis 10 ans. Il invente de nouvelles manières d'utiliser l'informatique afin de créer des logiciels remarquables. Bernard partage son savoir faire avec les équipes qu'il rejoint, autant pour écrire du code et des tests que pour animer la dynamique d'équipe et le processus de distillation des idées. Il contribue à la communauté agile française depuis sa création.\n\nIl est co-organisateur d'Agile Open France, la conférence en format \"forum ouvert\" des praticiens avancés de l'agile en France, qui se réunit annuellement à Itterswiller en Alsace. Il est membre du bureau d'Agile France où il contribue à inventer le futur du mouvement agile en France.\n\nBernard fabrique ses logiciels avec Erlang, Lisp et parfois .net",
+  "userLinks" : [ ],
+  "interests" : [ "TDD", "DDD", "functional programming", "Extreme Programming", "XP", "erlang", "Lisp", "Lean Startup", "Startup", "Agile" ],
+  "sessions" : [ 2331 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2861"
+    }
+  }
+}, {
+  "idMember" : 654,
+  "login" : "eyal.lezmy",
+  "email" : "eyal.lezmy@gmail.com",
+  "firstname" : "Eyal",
+  "lastname" : "LEZMY",
+  "company" : "Genymobile",
+  "level" : null,
+  "logo" : null,
+  "hash" : "84803fc83d5a1e1dbebe301f985b2b4c",
+  "sessionType" : null,
+  "shortDescription" : "Software Engineer spécialisé sur Android. Passionné par la vie des communautés et les projets innovants.",
+  "longDescription" : "- Software Engineer at Genymobile\n- Treasurer at the Paris Android User Group \n- Google Developer Expert Android\n\nWorking with Android since 2009.\nAfter several R&D projects at french internet providers, at Samsung in the Android B2B team, and then building an Android STB for a hotel chain. I'm currently working on Genymotion, an Android emulator.",
+  "userLinks" : [ ],
+  "interests" : [ "Git", "C", "GWT", "C++", "Agilité", "Eclipse", "embarqué", "blender", "Android", "Groovy", "C#" ],
+  "sessions" : [ 2361 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/654"
+    }
+  }
+}, {
+  "idMember" : 965,
+  "login" : "ppezziardi",
+  "email" : "pierre@pezziardi.net",
+  "firstname" : "Pierre",
+  "lastname" : "Pezziardi",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "9c25461b4ffd3397d0194c4a43b5e33f",
+  "sessionType" : null,
+  "shortDescription" : "Entrepreneur IT, auteur, lean, agile, system thinking et rock & roll",
+  "longDescription" : "Entrepreneur, co-fondateur du cabinet de conseil OCTO Technology, co-fondateur de l’Université du SI, fondateur d’OpenCBS Microfinance, créateur de NotreBanque, auteur, conférencier, je promeus l’idée d’Informatique Conviviale : des systèmes destinés à décloisonner les organisations et à rendre de l’autonomie aux individus. En 2010, j’ai déployé les méthodes du Lean en tant que DSI de la Bred Banque Populaire.\nAu travers de NotreBanque, je développe des outils financiers communautaires innovants, et notamment la plateforme de prêts solidaires entre particuliers hellomerci.com. J’anime actuellement une filière de startups d’état au sein du Secrétariat Général à la Modernisation de l’Action Publique, qui a notamment donné vie au nouveau portail de l’Open Data Français.",
+  "userLinks" : [ {
+    "key" : "Hellomerci",
+    "value" : "http://www.hellomerci"
+  }, {
+    "key" : "data.gouv.fr",
+    "value" : "http://www.data.gouv.fr"
+  }, {
+    "key" : "L'ordre sans le pouvoir",
+    "value" : "http://www.fondapol.org/etude/internet/pour-la-croissance-la-debureaucratisation-par-la-confiance/"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 2371 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/965"
+    }
+  }
+}, {
+  "idMember" : 2881,
+  "login" : "erik_schon",
+  "email" : "erik.schon@ericsson.com",
+  "firstname" : "Erik",
+  "lastname" : "Schön",
+  "company" : "Ericsson",
+  "level" : null,
+  "logo" : null,
+  "hash" : "ae390428aa26797e59501bc9f45927df",
+  "sessionType" : null,
+  "shortDescription" : "Hacker turned software researcher turned system engineer turned manager, leader & navigator; developing people, teams & organizations.",
+  "longDescription" : "Erik Schön is Head of Product Development Group 3G Radio Base Stations, Product Development Unit 2G/3G, Business Unit Radio at Ericsson in Stockholm, Sweden.  \nHacker turned software researcher turned system engineer; manager turned leader turned navigator, Erik has developed people, products and organizations for 20+ years in complex, global R&D environments.  In his current role, Erik is one of the navigators of a large-scale journey towards perfect flow using Lean/Agile principles and practices in a 1500+ people product development unit at Ericsson. \n\n",
+  "userLinks" : [ {
+    "key" : "LinkedIn",
+    "value" : "http://se.linkedin.com/in/erikschon"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 2391 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2881"
+    }
+  }
+}, {
+  "idMember" : 994,
+  "login" : "nitot",
+  "email" : "tristan@nitot.com",
+  "firstname" : "Tristan",
+  "lastname" : "Nitot",
+  "company" : "Mozilla",
+  "level" : null,
+  "logo" : null,
+  "hash" : "3ac6bd8f5222fed869d6fd03314e25af",
+  "sessionType" : null,
+  "shortDescription" : "Passionné par le Web et le logiciel Libre, Tristan Nitot contribue au projet Mozilla depuis 1998. Il a fondé Mozilla Europe en 2003.",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Standblog (blog perso)",
+    "value" : "http://standblog.org/blog/"
+  }, {
+    "key" : "Beyond The Code",
+    "value" : "http://blog.mozilla.org/beyond-the-code/"
+  }, {
+    "key" : "Mozilla Developer Network",
+    "value" : "https://developer.mozilla.org/"
+  }, {
+    "key" : "Mozilla Hacks blog",
+    "value" : "https://hacks.mozilla.org/"
+  } ],
+  "interests" : [ "innovation", "chiffrement", "HTML5", "OpenSource", "Firefox OS", "Mobile", "Jeux" ],
+  "sessions" : [ 2411 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/994"
+    }
+  }
+}, {
+  "idMember" : 2841,
+  "login" : "tastapod",
+  "email" : "dan@dannorth.net",
+  "firstname" : "Dan",
+  "lastname" : "North",
+  "company" : "Dan North and Associates Ltd",
+  "level" : null,
+  "logo" : null,
+  "hash" : "33cfb4d051a768c06f7fb380c7c2abe3",
+  "sessionType" : null,
+  "shortDescription" : "Optimizer of organizations, teams and software, programmer, Agile coach, technologist, troublemaker. Christian, husband, occasional blogger.",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Website",
+    "value" : "http://dannorth.net/"
+  }, {
+    "key" : "Blog",
+    "value" : "http://dannorth.net/blog/"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 2421, 2471 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2841"
+    }
+  }
+}, {
+  "idMember" : 2911,
+  "login" : "saron",
+  "email" : "saron.yitbarek@gmail.com",
+  "firstname" : "Saron",
+  "lastname" : "Yitbarek",
+  "company" : "CodeNewbie",
+  "level" : null,
+  "logo" : null,
+  "hash" : "73c7dd5d5660ed6c9230c5e173e24418",
+  "sessionType" : null,
+  "shortDescription" : "Saron is a rails developer and creator of CodeNewbie, the most supportive community of programmers and people learning to code.",
+  "longDescription" : "Saron is a rails developer and creator of CodeNewbie, the most supportive community of programmers and people learning to code. We produce a weekly podcast, twitter chat, and blog on different coding topics and from people at different parts of their coding journey.",
+  "userLinks" : [ {
+    "key" : "CodeNewbie",
+    "value" : "http://www.codenewbie.org"
+  } ],
+  "interests" : [ "podcasting", "Rails", "design", "programming education", "teaching", "speaking", "community", "Ruby", "content" ],
+  "sessions" : [ 2461 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/2911"
+    }
+  }
+}, {
+  "idMember" : 3241,
+  "login" : "pbakaus",
+  "email" : "paul.bakaus@gmail.com",
+  "firstname" : "Paul",
+  "lastname" : "Bakaus",
+  "company" : "Google",
+  "level" : null,
+  "logo" : null,
+  "hash" : "9fb120a88c85d93be416ed62b8ab5e16",
+  "sessionType" : null,
+  "shortDescription" : "Open Web Developer Advocate at Google • Tools, Performance, Animation, UX • HFR enthusiast • Creator of jQuery UI",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "Blog",
+    "value" : "https://paulbakaus.com"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 2531, 2521 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/3241"
+    }
+  }
+}, {
+  "idMember" : 3031,
+  "login" : "FlorencePorcel",
+  "email" : "contact@florenceporcel.com",
+  "firstname" : "Florence",
+  "lastname" : "Porcel",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "32140f2c7300026f5bae04a6060e74f7",
+  "sessionType" : null,
+  "shortDescription" : "Auteure, comédienne, animatrice. Vulgarisation scientifique, des particules à l'Univers en passant par l'exploration spatiale. ",
+  "longDescription" : "Florence Porcel est auteure, comédienne, animatrice et blogueuse. On a pu la voir dans \"Le Grand Webze\" et \"Le Vinvinteur\" sur France 5 et l'entendre dans \"La tête au carré\" sur France Inter. Depuis son \"CV-court-métrage façon Amélie Poulain\", elle propose régulièrement des contenus sur sa chaîne Youtube comme un podcast sur l'actualité des sciences de l'Univers et de l'exploration spatiale (\"La folle histoire de l'Univers\") et des vidéos de vulgarisation scientifique. Elle tient également un blog (florenceporcel.com) sur ces thématiques, son billet sur l'histoire des femmes astronautes a été publié dans \"Les meilleurs blogues de science\" (Éd. MultiMondes, 2014) et elle a préfacé les quatre premiers tomes du \"Projet Mars\" d'Andreas Eschbach (Éd. L'Atalante, 2015). Elle est connue pour sa candidature au Projet Mars qui l'a amenée dans les 660 candidats sur plus de 200 000 à travers le monde à accéder au second tour des sélections, mais n'a pas été retenue dans les finalistes. Elle a cependant effectué une mission de simulation martienne au sein de la Mars Society.  ",
+  "userLinks" : [ {
+    "key" : "Chaîne Youtube ",
+    "value" : "https://www.youtube.com/c/FlorencePorcel"
+  }, {
+    "key" : "Site",
+    "value" : "http://www.florenceporcel.com"
+  }, {
+    "key" : "Page Facebook ",
+    "value" : "https://www.facebook.com/la.galaxie.de.florence.porcel"
+  }, {
+    "key" : "Tipeee",
+    "value" : "https://www.tipeee.com/florenceporcel"
+  } ],
+  "interests" : [ "sciences", "espace", "exploration spatiale", "astronomie", "mars" ],
+  "sessions" : [ 2541 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/3031"
+    }
+  }
+}, {
+  "idMember" : 3721,
+  "login" : "bortzmeyer",
+  "email" : "stephane+gravatar@bortzmeyer.org",
+  "firstname" : "Stéphane",
+  "lastname" : "Bortzmeyer",
+  "company" : "",
+  "level" : null,
+  "logo" : null,
+  "hash" : "2b9a6d8db89e80ea3028e179407b4990",
+  "sessionType" : null,
+  "shortDescription" : "Engineer, blogger, pretends to know about the Internet (DNS, BGP, etc)",
+  "longDescription" : "",
+  "userLinks" : [ {
+    "key" : "My blog",
+    "value" : "http://www.bortzmeyer.org/"
+  } ],
+  "interests" : [ ],
+  "sessions" : [ 2551 ],
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/member/3721"
+    }
+  }
+} ]

@@ -1,0 +1,43 @@
+<!-- index.html -->
+<html ng-app="jt" lang="en" ng-strict-di>
+<head>
+    <meta charset="utf-8">
+    <title>Tests en Angular</title>
+    <base href="/">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/material.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <script src="/js/lib/angular.js"></script>
+    <script src="/js/lib/angular-ui-router.js"></script>
+    <script src="/js/lib/material.js"></script>
+
+    <script src="/js/angular/app.js"></script>
+    <script src="/js/angular/controllers/talk.controller.js"></script>
+    <script src="/js/angular/services/error-interceptor.service.js"></script>
+    <script src="/js/angular/directives/header.directive.js"></script>
+    <script src="/js/angular/directives/footer.directive.js"></script>
+    <script src="/js/angular/directives/error.directive.js"></script>
+    <script src="/js/angular/filters/session-logo.filter.js"></script>
+
+    <!-- endbuild -->
+    <!-- build:e2e -->
+    <!-- endbuild -->
+
+
+</head>
+<body >
+    <jt-header class="jt_header"></jt-header>
+
+    <div class="mdl-layout__content jt_header-top jt_container-relative" >Application <b>Angular</b></div>
+    <div class="mdl-layout__content jt-container jt_view jt_container-relative" ui-view></div>
+
+    <jt-footer class="jt_footer"></jt-footer>
+
+    <jt-error-dialog error="error"></jt-error-dialog>
+
+</body>
+</html>

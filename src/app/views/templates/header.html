@@ -1,0 +1,34 @@
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <div class="mdl-layout__header">
+        <!-- Navigation for large screens. -->
+        <div class="mdl-layout__header-row">
+            <div class="mdl-layout-icon">
+                <a ui-sref="home" class="link_home"><img src="img/logo_long_1400.png" alt="Dev-Mind"></a>
+            </div>
+
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <div class="cesar-menu mdl-navigation__link cesar-navigation__link">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-button--mini-fab link_talk"
+                       ui-sref="talk">
+                        <i class="material-icons">view_list</i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <!-- Navigation panel for small screens. -->
+    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <span class="mdl-layout-title">Mix-IT</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link link_home" ui-sref="home">Home</a>
+            <a class="mdl-navigation__link link_talk" ui-sref="talk">Talks</a>
+        </nav>
+    </div>
+</div>
+
+<script ng-if="!isAngularApp" src="js/jquery/controllers/menu.js"></script>
