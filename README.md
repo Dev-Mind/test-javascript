@@ -1,6 +1,6 @@
 # AngularAndTests
 
-![Dev-Mind](http://dev-mind.fr/images/bbed4f5c.logo_new.png)
+![Dev-Mind](src/app/assets/img/logo_long_1400.png)
 
 Cette application est utilisée pour illustrer ma conférence sur les tests dans une application Javascript
 
