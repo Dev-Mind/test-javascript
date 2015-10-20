@@ -18,18 +18,13 @@ describe('Angular Talk', function(){
     expect(page.nbElementInList()).toBe(64);
   });
 
-  it('should filter the list and return 3 elements when filter is "micro"', function(){
-    //We can't use waitForAngular in this mode. So we need to maage a timeout manually
+  it('should filter the list and return 3 elements when filter is "microp"', function(){
+    //We can't use waitForAngular in this mode. So we need to manage a timeout manually
+    //We need to wait the Jquery load
+    browser.sleep(1000);
     page.filter('microp');
-    browser.sleep(2000);
-    browser.driver.executeAsyncScript(
-      'window.setTimeout(arguments[arguments.length - 1], 1000);').
-      then(function() {
-        expect(page.nbElementInList()).toBe(1);
-      });
-    //.then(function(){
-
-    //})
+    browser.sleep(100);
+    expect(page.nbElementInList()).toBe(1);
   });
 });
 

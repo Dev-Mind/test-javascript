@@ -13,7 +13,7 @@ var jQueryTalkPage = function () {
 
   this.filter = function(name) {
     var input = element(by.id('session-search'));
-    return input.sendKeys(name);
+    input.sendKeys(name);
   };
 
   this.nbElementInList = function(){

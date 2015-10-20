@@ -1,5 +1,6 @@
 'use strict';
 
+
 app.talk = {
 
   data : undefined,
@@ -8,9 +9,6 @@ app.talk = {
     componentHandler.upgradeAllRegistered();
 
     $("#session-search").keyup(function(){
-      app.talk.talkFilter(this.value);
-    });
-    $("#session-search").change(function(){
       app.talk.talkFilter(this.value);
     });
     $.ajax({url: 'api/session/talk'}).done(app.talk.callBackTalks);

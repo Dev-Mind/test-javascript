@@ -15,7 +15,6 @@ angular.module('jt',
   ]
 );
 
-
 angular.module('jt').config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
 
   $locationProvider.html5Mode(true);

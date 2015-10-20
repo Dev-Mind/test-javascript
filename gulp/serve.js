@@ -34,7 +34,8 @@ module.exports = function (gulp, config) {
         ]
       },
       port : port,
-      notify: false
+      notify: false,
+      ghostMode: false
     });
   }
 
