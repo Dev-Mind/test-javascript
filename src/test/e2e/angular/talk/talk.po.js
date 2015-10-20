@@ -1,14 +1,15 @@
-var serverUrl = require('../../serverUrl.js');
+/**
+ * This file uses the Page Object pattern to define the main page for tests
+ * https://docs.google.com/presentation/d/1B6manhG0zEXkC-H-tPo2vwU06JhL8w9-XCF9oehXzAQ
+ */
+
+'use strict';
 
 var AngularTalkPage = function () {
 
-  this.url = new serverUrl().URL;
+  this.url = require('../../serverUrl.js').URL;
   this.search = element(by.model('search'));
   this.list = element.all(by.repeater('session in ctrl.sessions'));
-
-  this.get = function () {
-    browser.get(this.url + 'talk');
-  };
 
   this.filter = function(name) {
     this.search.sendKeys(name);

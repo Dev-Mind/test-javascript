@@ -1,8 +1,7 @@
-var serverUrl = require('../../serverUrl.js');
 
 describe('Angular Talk', function(){
 
-  var url = new serverUrl().URL;
+  var url = require('../../serverUrl.js').URL;
 
   describe('Desactivate waitForAngular', function(){
 

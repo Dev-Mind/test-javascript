@@ -1,8 +1,13 @@
-var serverUrl = require('../../serverUrl.js');
+/**
+ * This file uses the Page Object pattern to define the main page for tests
+ * https://docs.google.com/presentation/d/1B6manhG0zEXkC-H-tPo2vwU06JhL8w9-XCF9oehXzAQ
+ */
+
+'use strict';
 
 var jQueryTalkPage = function () {
 
-  this.url = new serverUrl().URL;
+  this.url = require('../../serverUrl.js').URL;
 
   //Protractor can't be used in a non angular app. So we have to call the webdriver
   this.get = function () {

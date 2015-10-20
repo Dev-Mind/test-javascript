@@ -4,12 +4,11 @@ describe('jQuery Homepage', function(){
   var page;
 
   beforeEach(function(){
+    page = require('./home.po.js');
     //Protractor wait for Angular by default ==> Failed: Error while waiting for Protractor to sync with the page: "angular could not be found on the window"
     //So you can desactive this param
     browser.ignoreSynchronization = true;
-
-    page = new jQueryHomepage();
-    page.get();
+    browser.get(page.url);
   });
 
   it('should have a title "Tests en jQuery"', function(){

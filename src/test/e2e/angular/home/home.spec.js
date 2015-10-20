@@ -1,12 +1,10 @@
 
-var AngularHomepage = require('./home.po.js');
-
 describe('Angular Homepage', function(){
   var page;
 
   beforeEach(function(){
-    page = new AngularHomepage();
-    page.get();
+    page = require('./home.po.js');
+    browser.get(page.url);
   });
 
   it('should have a title "Tests en Angular"', function(){

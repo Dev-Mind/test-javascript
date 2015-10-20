@@ -1,13 +1,11 @@
 
-var AngularTalkPage = require('./talk.po.js');
-
 describe('Angular Talk', function(){
 
   var page;
 
   beforeEach(function(){
-    page = new AngularTalkPage();
-    page.get();
+    page = require('./talk.po.js');
+    browser.get(page.url + 'talk');
   });
 
   it('should load the 64 talks when the screen is opened', function(){

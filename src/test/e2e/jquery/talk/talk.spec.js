@@ -6,12 +6,15 @@ describe('Angular Talk', function(){
   var page;
 
   beforeEach(function(){
+    page = require('./talk.po.js');
+
     //Protractor wait for Angular by default ==> Failed: Error while waiting for Protractor to sync with the page: "angular could not be found on the window"
     //So you can desactive this param
     browser.ignoreSynchronization = true;
 
-    page = new jQueryTalkPage();
-    page.get();
+    browser.get(page.url);
+    element(by.className('link_jquery')).click();
+    element(by.className('link_talk')).click();
   });
 
   it('should load the 64 talks when the screen is opened', function(){

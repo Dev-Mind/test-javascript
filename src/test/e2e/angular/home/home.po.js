@@ -1,15 +1,16 @@
-var serverUrl = require('../../serverUrl.js');
+/**
+ * This file uses the Page Object pattern to define the main page for tests
+ * https://docs.google.com/presentation/d/1B6manhG0zEXkC-H-tPo2vwU06JhL8w9-XCF9oehXzAQ
+ */
+
+'use strict';
 
 var AngularHomepage = function() {
 
-  this.url = new serverUrl().URL;
+  this.url = require('../../serverUrl.js').URL;
   this.linkTalk = $('.link_talk');
   this.linkHome = element(by.className('link_home'));
   this.linkJqueryApp = element(by.className('link_jquery'));
-
-  this.get = function() {
-    browser.get(this.url);
-  };
 
   this.go = function(name) {
     this[name].click();
