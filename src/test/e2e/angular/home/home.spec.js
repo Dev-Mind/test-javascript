@@ -1,9 +1,13 @@
+'use strict';
+
+var AngularHomepage = require('./home.po.js');
 
 describe('Angular Homepage', function(){
-  var page;
+
+  var page = new AngularHomepage();
 
   beforeEach(function(){
-    page = require('./home.po.js');
+    console.log(page.url)
     browser.get(page.url);
   });
 

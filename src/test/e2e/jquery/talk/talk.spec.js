@@ -1,20 +1,20 @@
+'use strict';
 
-var jQueryTalkPage = require('./talk.po.js');
+var JQueryHomepage = require('../home/home.po.js');
+var JQueryTalkPage = require('./talk.po.js');
 
 describe('Angular Talk', function(){
 
-  var page;
+  var page = new JQueryTalkPage();
+  var menu = new JQueryHomepage();
 
   beforeEach(function(){
-    page = require('./talk.po.js');
-
     //Protractor wait for Angular by default ==> Failed: Error while waiting for Protractor to sync with the page: "angular could not be found on the window"
     //So you can desactive this param
     browser.ignoreSynchronization = true;
 
-    browser.get(page.url);
-    element(by.className('link_jquery')).click();
-    element(by.className('link_talk')).click();
+    menu.get();
+    menu.go('linkJQueryTalk');
   });
 
   it('should load the 64 talks when the screen is opened', function(){

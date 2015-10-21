@@ -5,16 +5,11 @@
 
 'use strict';
 
-var jQueryTalkPage = function () {
+var ServerUrl = require('../../ServerUrl.js');
 
-  this.url = require('../../serverUrl.js').URL;
+var JQueryTalkPage = function () {
 
-  //Protractor can't be used in a non angular app. So we have to call the webdriver
-  this.get = function () {
-    browser.get(this.url);
-    element(by.className('link_jquery')).click();
-    element(by.className('link_talk')).click();
-  };
+  this.url = new ServerUrl().URL;
 
   this.filter = function(name) {
     var input = element(by.id('session-search'));
@@ -30,4 +25,4 @@ var jQueryTalkPage = function () {
 
 };
 
-module.exports = jQueryTalkPage;
+module.exports = JQueryTalkPage;

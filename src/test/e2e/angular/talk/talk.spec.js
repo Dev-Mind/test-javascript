@@ -1,10 +1,12 @@
+'use strict';
+
+var AngularTalkPage = require('./talk.po.js');
 
 describe('Angular Talk', function(){
 
-  var page;
+  var page = new AngularTalkPage();
 
   beforeEach(function(){
-    page = require('./talk.po.js');
     browser.get(page.url + 'talk');
   });
 

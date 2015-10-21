@@ -5,11 +5,15 @@
 
 'use strict';
 
-var jQueryHomepage = function() {
+var ServerUrl = require('../../ServerUrl.js');
 
-  this.url = require('../../serverUrl.js').URL;
+var JQueryHomepage = function() {
+
+  this.url = new ServerUrl().URL;
+
   this.linkHome = element(by.className('link_home'));
   this.linkAngularApp = element(by.className('link_angular'));
+  this.linkJQueryTalk = element(by.className('link_talk'));
 
 
   this.get = function() {
@@ -22,4 +26,4 @@ var jQueryHomepage = function() {
   };
 };
 
-module.exports = jQueryHomepage;
+module.exports = JQueryHomepage;

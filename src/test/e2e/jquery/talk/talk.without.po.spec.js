@@ -1,7 +1,10 @@
+'use strict';
 
-describe('Angular Talk', function(){
+var ServerUrl = require('../../ServerUrl.js');
 
-  var url = require('../../serverUrl.js').URL;
+fdescribe('Angular Talk', function(){
+
+  this.url = new ServerUrl().URL;
 
   describe('Desactivate waitForAngular', function(){
 

@@ -5,9 +5,12 @@
 
 'use strict';
 
+var ServerUrl = require('../../ServerUrl.js');
+
 var AngularTalkPage = function () {
 
-  this.url = require('../../serverUrl.js').URL;
+  this.url = new ServerUrl().URL;
+
   this.search = element(by.model('search'));
   this.list = element.all(by.repeater('session in ctrl.sessions'));
 
