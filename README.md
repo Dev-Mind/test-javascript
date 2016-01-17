@@ -17,7 +17,7 @@ Les versions des librairies utiliséees sont les suivantes
 
  * [Node 4.2.4](https://nodejs.org)
  * [Karma 0.13.19](https://karma-runner.github.io)
- * [Protractor 2.5.1](https://angular.github.io/protractor)
+ * [Protractor 3.0.0](https://angular.github.io/protractor)
  * [Jasmine 2.4.1](http://jasmine.github.io/)
  * [Angular 1.4.8](https://angularjs.org/)
  * [Jquery 2.2.0](https://jquery.com/)
