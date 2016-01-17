@@ -7,7 +7,7 @@ describe('Angular Talk', function(){
   var page = new AngularTalkPage();
 
   beforeEach(function(){
-    browser.get(page.url + 'talk');
+    browser.get('/talk');
   });
 
   it('should load the 64 talks when the screen is opened', function(){

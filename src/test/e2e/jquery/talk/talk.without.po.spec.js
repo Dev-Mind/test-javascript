@@ -1,10 +1,7 @@
 'use strict';
 
-var ServerUrl = require('../../ServerUrl.js');
 
-describe('Angular Talk', function(){
-
-  var url = new ServerUrl().URL;
+describe('jQuery Talk', function(){
 
   describe('Desactivate waitForAngular', function(){
 
@@ -13,7 +10,7 @@ describe('Angular Talk', function(){
       //So you can desactive this param
       browser.ignoreSynchronization = true;
 
-      browser.get(url);
+      browser.get('/');
       element.all(by.className('link_jquery')).first().click();
       element.all(by.className('link_talk')).first().click();
     });
@@ -31,7 +28,7 @@ describe('Angular Talk', function(){
   describe('Use directly webdriver', function(){
 
     beforeEach(function(){
-      browser.driver.get(url);
+      browser.driver.get('http://localhost:4000');
       browser.driver.findElement(By.className('link_jquery')).click();
       browser.driver.findElement(By.className('link_talk')).click();
     });

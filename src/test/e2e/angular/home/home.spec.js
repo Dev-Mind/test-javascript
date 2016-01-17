@@ -2,27 +2,28 @@
 
 var AngularHomepage = require('./home.po.js');
 
-describe('Angular Homepage', function(){
+fdescribe('Angular Homepage', function(){
 
   var page = new AngularHomepage();
+  var fs = require('fs');
 
   beforeEach(function(){
-    browser.get(page.url);
+    browser.get('/home');
   });
 
-  it('should have a title "Tests en Angular"', function(){
+  it('should have a title "Tests en Angular"', () =>{
     expect(browser.getTitle()).toBe('Tests en Angular');
-
   });
 
   it('should refresh home page', function(){
     page.go('linkHome');
-    expect(browser.getCurrentUrl()).toBe(page.url + 'home');
+    expect(browser.getCurrentUrl()).toBe('http://localhost:4000/home');
   });
 
   it('should open talk page', function(){
     page.go('linkTalk');
-    expect(browser.getCurrentUrl()).toBe(page.url + 'talk');
+    page.takeScreeenShot('talk.png');
+    expect(browser.getCurrentUrl()).toBe('http://localhost:4000/talk');
   });
 
   it('should open jquery app', function(){

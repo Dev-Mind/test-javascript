@@ -3,7 +3,7 @@
 var JQueryHomepage = require('../home/home.po.js');
 var JQueryTalkPage = require('./talk.po.js');
 
-describe('Angular Talk', function(){
+describe('jQuery Talk', function(){
 
   var page = new JQueryTalkPage();
   var menu = new JQueryHomepage();

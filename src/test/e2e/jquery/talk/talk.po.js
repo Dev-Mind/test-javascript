@@ -5,11 +5,7 @@
 
 'use strict';
 
-var ServerUrl = require('../../ServerUrl.js');
-
 var JQueryTalkPage = function () {
-
-  this.url = new ServerUrl().URL;
 
   this.filter = function(name) {
     var input = element(by.id('session-search'));

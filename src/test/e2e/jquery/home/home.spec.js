@@ -10,7 +10,6 @@ describe('jQuery Homepage', function(){
     //Protractor wait for Angular by default ==> Failed: Error while waiting for Protractor to sync with the page: "angular could not be found on the window"
     //So you can desactive this param
     browser.ignoreSynchronization = true;
-
     page.get();
   });
 
@@ -22,7 +21,7 @@ describe('jQuery Homepage', function(){
 
   it('should refresh home page', function(){
     page.go('linkHome');
-    expect(browser.driver.getCurrentUrl()).toBe(page.url + 'index-jquery.html');
+    expect(browser.driver.getCurrentUrl()).toBe('http://localhost:4000/index-jquery.html');
   });
 
   it('should open an angular app', function(){

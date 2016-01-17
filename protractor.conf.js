@@ -1,3 +1,4 @@
+
 // An example configuration file.
 exports.config = {
   directConnect: true,
@@ -11,7 +12,9 @@ exports.config = {
   framework: 'jasmine2',
 
   onPrepare: function () {
+    baseUrl: 'http://localhost:4000',
     browser.driver.manage().window().maximize();
+    require('babel-core/register',{presets: ["es2015"]});
   },
 
   suites: {

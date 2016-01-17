@@ -4,11 +4,9 @@
  */
 'use strict';
 
-var ServerUrl = require('../../ServerUrl.js');
+var ScreenShot = require('../../ScreenShot.js');
 
 var AngularHomepage = function() {
-
-  this.url = new ServerUrl().URL;
 
   this.linkTalk = $$('.link_talk').first();
   this.linkHome = element.all(by.className('link_home')).first();
@@ -17,6 +15,13 @@ var AngularHomepage = function() {
   this.go = function(name) {
     this[name].click();
   };
+
+  this.takeScreeenShot = function(name){
+    // within a test:
+    browser.takeScreenshot().then(function (png) {
+      new ScreenShot().writeScreenShot(png, name);
+    });
+  }
 };
 
 module.exports = AngularHomepage;

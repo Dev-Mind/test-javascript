@@ -5,11 +5,8 @@
 
 'use strict';
 
-var ServerUrl = require('../../ServerUrl.js');
 
 var JQueryHomepage = function() {
-
-  this.url = new ServerUrl().URL;
 
   this.linkHome = element.all(by.className('link_home')).first();
   this.linkAngularApp = element(by.className('link_angular'));
@@ -17,13 +14,14 @@ var JQueryHomepage = function() {
 
 
   this.get = function() {
-    browser.get(this.url);
+    browser.get('/');
     element(by.className('link_jquery')).click();
   };
 
   this.go = function(name) {
     this[name].click();
   };
+
 };
 
 module.exports = JQueryHomepage;
