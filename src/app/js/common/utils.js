@@ -1,6 +1,6 @@
 'use strict';
 
-var utils = (function() {
+window.utils = (function() {
 
   /**
    * The server used HATEOAS (Hypermedia as the engine of Application State. All the foreign key are an entry in the

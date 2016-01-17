@@ -54,7 +54,7 @@ module.exports = function (gulp, config) {
   });
 
   gulp.task('serve:e2e', ['build:e2e'], function () {
-    browserSyncInit(paths.build.e2e, 14001);
+    browserSyncInit(paths.build.e2e, 4000);
   });
 
 };

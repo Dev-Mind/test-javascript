@@ -18,7 +18,6 @@
     <tbody>
     <tr class="jt-talk-line" ng-repeat="session in ctrl.sessions | filter:search | orderBy:order">
         <td class="mdl-data-table__cell--non-numeric">
-            {{session}}
             <p class="jt-text mdl-card__title-text cesar-card__title-text">
                 <i class="material-icons cesar-button--fab">{{session.format | sessionLogo}}</i>&nbsp;
                 {{session.title}}&nbsp;<b>{{session.lang}}</b>

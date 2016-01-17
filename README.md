@@ -1,4 +1,4 @@
-# Test en Javascript
+# Tests en Javascript
 
 ![Dev-Mind](src/app/assets/img/logo_long_1400.png)
 
@@ -23,4 +23,10 @@ Les versions des librairies utiliséees sont les suivantes
  * [Jquery 2.2.0](https://jquery.com/)
 
 
+# Tests d'intégration
 
+Si vous voulez la partie test d'intégration sans avoir à installer autre chose, les appels distants sont mockés. Lancez la commande
+
+```gulp serve:e2e```
+
+Et vous pouvez jouer ensuite jouer les tests Protractor

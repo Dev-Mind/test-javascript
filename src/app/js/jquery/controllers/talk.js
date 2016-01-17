@@ -16,7 +16,7 @@ app.talk = {
 
   callBackTalks :  function (sessions) {
     app.talk.data = sessions;
-    $.ajax({url: '/api/member/speaker'}).done(app.talk.callBackSpeakers);
+    $.ajax({url: '/api/member/speaker?year=2015'}).done(app.talk.callBackSpeakers);
   },
 
   callBackSpeakers : function (speaks) {

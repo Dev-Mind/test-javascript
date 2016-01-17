@@ -1,9 +1,8 @@
-
 [ {
   "idSession" : 631,
   "votes" : 212,
   "positiveVotes" : 204,
-  "nbConsults" : 1129,
+  "nbConsults" : 1158,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Microplugins avec Docker",
@@ -14,21 +13,21 @@
   "start" : null,
   "end" : null,
   "interests" : [ "DevOps", "Docker" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/631"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/1371"
-    }, {
-      "href" : "http://localhost:8080/api/member/592"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/631"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1371"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/592"
+  } ]
 }, {
   "idSession" : 711,
   "votes" : 224,
   "positiveVotes" : 216,
-  "nbConsults" : 671,
+  "nbConsults" : 681,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "24 Minutes chrono pour bâtir une appli mobile",
@@ -39,19 +38,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Java EE", "cordova", "JBossForge", "Eclipse" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/711"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1461"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/711"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1461"
+  } ]
 }, {
   "idSession" : 761,
   "votes" : 39,
   "positiveVotes" : 33,
-  "nbConsults" : 309,
+  "nbConsults" : 313,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Ceylon d’ici à l’infini : tour d’horizon et futur",
@@ -62,19 +60,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "JVM", "languages", "Ceylon" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/761"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/36"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/761"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/36"
+  } ]
 }, {
   "idSession" : 771,
   "votes" : 75,
   "positiveVotes" : 60,
-  "nbConsults" : 698,
+  "nbConsults" : 704,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Sirius : un schéma vaut mieux qu'un long discours",
@@ -85,19 +82,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "open source", "Eclipse", "Domain Driven Design", "Domain Specific Language", "live coding demo" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/771"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1531"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/771"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1531"
+  } ]
 }, {
   "idSession" : 791,
   "votes" : 1540,
   "positiveVotes" : 1500,
-  "nbConsults" : 877,
+  "nbConsults" : 884,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Si le TDD est mort, alors pratiquons une autopsie",
@@ -108,21 +104,21 @@
   "start" : null,
   "end" : null,
   "interests" : [ "BDD", "TDD", "code kata", "développeur", "design", "développement", "algos", "craft", "modèles mentaux", "design émergeant" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/791"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/1541"
-    }, {
-      "href" : "http://localhost:8080/api/member/1401"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/791"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1541"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1401"
+  } ]
 }, {
   "idSession" : 801,
   "votes" : 110,
   "positiveVotes" : 80,
-  "nbConsults" : 655,
+  "nbConsults" : 658,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Apprenez les ficelles de Marionette",
@@ -133,19 +129,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Live Coding", "Backbone", "Web", "JavaScript", "Marionette" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/801"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/263"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/801"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/263"
+  } ]
 }, {
   "idSession" : 821,
   "votes" : 116,
   "positiveVotes" : 108,
-  "nbConsults" : 551,
+  "nbConsults" : 552,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "RxJava, les mains dans le Code",
@@ -156,21 +151,21 @@
   "start" : null,
   "end" : null,
   "interests" : [ "reactive programming", "RxJava" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/821"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/929"
-    }, {
-      "href" : "http://localhost:8080/api/member/1581"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/821"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/929"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1581"
+  } ]
 }, {
   "idSession" : 951,
   "votes" : 31,
   "positiveVotes" : 25,
-  "nbConsults" : 427,
+  "nbConsults" : 429,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Intégration web : qualité & productivité FTW",
@@ -181,19 +176,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/951"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1711"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/951"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1711"
+  } ]
 }, {
   "idSession" : 971,
   "votes" : 188,
   "positiveVotes" : 180,
-  "nbConsults" : 595,
+  "nbConsults" : 599,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Look Ma, I'm a core developper",
@@ -204,19 +198,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "open source", "développement", "retours d'expérience", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/971"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/103"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/971"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/103"
+  } ]
 }, {
   "idSession" : 1011,
   "votes" : 50,
   "positiveVotes" : 45,
-  "nbConsults" : 338,
+  "nbConsults" : 339,
   "lang" : "en",
   "format" : "Talk",
   "title" : "Entangling artefacts",
@@ -227,19 +220,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "continuous improvement", "Amélioration continue", "System Thinking", "Artefacts", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1011"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1005"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1011"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1005"
+  } ]
 }, {
   "idSession" : 1021,
   "votes" : 340,
   "positiveVotes" : 310,
-  "nbConsults" : 593,
+  "nbConsults" : 594,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Jeu des prénoms revisité",
@@ -250,19 +242,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "cost of delay", "délai", "Kanban", "Flux", "lean product development", "Management", "performance", "WIP", "gestion de projet", "coût du retard" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1021"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/13"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1021"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/13"
+  } ]
 }, {
   "idSession" : 1041,
   "votes" : 680,
   "positiveVotes" : 640,
-  "nbConsults" : 1627,
+  "nbConsults" : 1632,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Agilité par le code grâce à CQRS et EventSourcing",
@@ -273,25 +264,27 @@
   "start" : null,
   "end" : null,
   "interests" : [ "CQRS", "event sourcing", "architecture émergente", "DDD", "EventStorming" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1041"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/631"
-    }, {
-      "href" : "http://localhost:8080/api/member/701"
-    }, {
-      "href" : "http://localhost:8080/api/member/704"
-    }, {
-      "href" : "http://localhost:8080/api/member/389"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1041"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/631"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/701"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/704"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/389"
+  } ]
 }, {
   "idSession" : 1051,
   "votes" : 260,
   "positiveVotes" : 230,
-  "nbConsults" : 565,
+  "nbConsults" : 566,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Lean Takeoff : plongez dans un monde incertain !",
@@ -302,21 +295,21 @@
   "start" : null,
   "end" : null,
   "interests" : [ "customer development", "adéquation problème solution", "pivot", "problem solution fit", "Lean Startup" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1051"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/13"
-    }, {
-      "href" : "http://localhost:8080/api/member/452"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1051"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/13"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/452"
+  } ]
 }, {
   "idSession" : 1071,
   "votes" : 99,
   "positiveVotes" : 78,
-  "nbConsults" : 409,
+  "nbConsults" : 412,
   "lang" : "en",
   "format" : "Talk",
   "title" : "Ramping up your DevOps-fu for big data developers",
@@ -327,19 +320,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "cluster", "DevOps", "spark" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1071"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1831"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1071"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1831"
+  } ]
 }, {
   "idSession" : 1121,
   "votes" : 108,
   "positiveVotes" : 96,
-  "nbConsults" : 634,
+  "nbConsults" : 635,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Initiation à la facilitation graphique",
@@ -350,19 +342,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "facilitation graphique", "Facilitation", "Visual facilitation" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1121"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/5"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1121"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/5"
+  } ]
 }, {
   "idSession" : 1131,
   "votes" : 282,
   "positiveVotes" : 264,
-  "nbConsults" : 535,
+  "nbConsults" : 536,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Kanban pour tous",
@@ -373,19 +364,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Kanban", "flux commercial", "personnal Kanban", "valeur", "Gouvernance", "retours d'expérience" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1131"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/5"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1131"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/5"
+  } ]
 }, {
   "idSession" : 1241,
   "votes" : 66,
   "positiveVotes" : 60,
-  "nbConsults" : 397,
+  "nbConsults" : 400,
   "lang" : "en",
   "format" : "Talk",
   "title" : "Tips and tricks for clean relational db schemas",
@@ -396,19 +386,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "design", "sql" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1241"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1951"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1241"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1951"
+  } ]
 }, {
   "idSession" : 1301,
   "votes" : 51,
   "positiveVotes" : 45,
-  "nbConsults" : 303,
+  "nbConsults" : 304,
   "lang" : "en",
   "format" : "Talk",
   "title" : "Communicating Across the Skills Gap",
@@ -419,19 +408,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Project Management", "technical skills gap", "communication skills" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1301"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2031"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1301"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2031"
+  } ]
 }, {
   "idSession" : 1311,
   "votes" : 140,
   "positiveVotes" : 105,
-  "nbConsults" : 601,
+  "nbConsults" : 604,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Tous différents et nous formons une superbe équipe",
@@ -442,19 +430,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "mobiliser", "diversité", "intelligence collective", "style de pensée", "modèle Hermann" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1311"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2051"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1311"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2051"
+  } ]
 }, {
   "idSession" : 1341,
   "votes" : 430,
   "positiveVotes" : 410,
-  "nbConsults" : 645,
+  "nbConsults" : 649,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Initiation au Machine Learning avec Spark\t",
@@ -465,21 +452,21 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Data Science", "spark", "Scala", "Big Data", "Machine Learning" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1341"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/2071"
-    }, {
-      "href" : "http://localhost:8080/api/member/2061"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1341"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2071"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2061"
+  } ]
 }, {
   "idSession" : 1351,
   "votes" : 468,
   "positiveVotes" : 414,
-  "nbConsults" : 695,
+  "nbConsults" : 698,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Changez d'avis sur JavaScript",
@@ -490,14 +477,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Langage dynamique", "Web", "JavaScript", "ES6", "ES2015", "Node.js" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1351"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/497"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1351"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/497"
+  } ]
 }, {
   "idSession" : 1361,
   "votes" : 72,
@@ -513,19 +499,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Lean IT", "IT", "gestion de projet", "Obeya" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1361"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/3411"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1361"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/3411"
+  } ]
 }, {
   "idSession" : 1381,
   "votes" : 145,
   "positiveVotes" : 110,
-  "nbConsults" : 600,
+  "nbConsults" : 603,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Prise en main des outils JDK:jstat, jstack et jmap",
@@ -536,19 +521,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "jmap", "jstack", "Java", "jstat", "analyse de la production" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1381"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/113"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1381"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/113"
+  } ]
 }, {
   "idSession" : 1411,
   "votes" : 144,
   "positiveVotes" : 128,
-  "nbConsults" : 457,
+  "nbConsults" : 459,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Apprentissage agile ludique : Mindstorm4Scrum",
@@ -559,21 +543,21 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Lego", "développement", "Scrum", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1411"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/2131"
-    }, {
-      "href" : "http://localhost:8080/api/member/2111"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1411"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2131"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2111"
+  } ]
 }, {
   "idSession" : 1431,
   "votes" : 37,
   "positiveVotes" : 30,
-  "nbConsults" : 448,
+  "nbConsults" : 449,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Venez découvrir CDI, la perle de Java EE !",
@@ -584,19 +568,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "CDI" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1431"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2141"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1431"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2141"
+  } ]
 }, {
   "idSession" : 1461,
   "votes" : 300,
   "positiveVotes" : 272,
-  "nbConsults" : 736,
+  "nbConsults" : 739,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Du Web hors-ligne avec les Services Workers",
@@ -607,19 +590,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "offline", "JavaScript", "performance", "Mobile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1461"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2171"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1461"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2171"
+  } ]
 }, {
   "idSession" : 1491,
   "votes" : 156,
   "positiveVotes" : 140,
-  "nbConsults" : 512,
+  "nbConsults" : 514,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Rétrospective et intelligence collective",
@@ -630,19 +612,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Inte", "Outils collaboratifs", "Am", "Rétr" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1491"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2191"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1491"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2191"
+  } ]
 }, {
   "idSession" : 1511,
   "votes" : 145,
   "positiveVotes" : 140,
-  "nbConsults" : 400,
+  "nbConsults" : 402,
   "lang" : "en",
   "format" : "Talk",
   "title" : "OrientDB - the 2nd generation of (MultiModel)NoSQL",
@@ -653,14 +634,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "NoSQL", "Document Databases", "Big Data", "Graph Databases", "Multi-Model Databases" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1511"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2311"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1511"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2311"
+  } ]
 }, {
   "idSession" : 1581,
   "votes" : 208,
@@ -676,16 +656,16 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Facilitation", "approche appréciative", "coaching d'équipe", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1581"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/601"
-    }, {
-      "href" : "http://localhost:8080/api/member/160"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1581"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/601"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/160"
+  } ]
 }, {
   "idSession" : 1651,
   "votes" : 105,
@@ -701,14 +681,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "industrialisation", "ES6", "ES2015" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1651"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/285"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1651"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/285"
+  } ]
 }, {
   "idSession" : 1701,
   "votes" : 129,
@@ -724,14 +703,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "documentation", "AsciiDoc", "Tools" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1701"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2441"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1701"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2441"
+  } ]
 }, {
   "idSession" : 1771,
   "votes" : 66,
@@ -747,14 +725,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Swift", "iOS", "Mobile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1771"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2521"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1771"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2521"
+  } ]
 }, {
   "idSession" : 1791,
   "votes" : 135,
@@ -770,19 +747,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "open source", "design", "Node.js", "Ruby", "architecture" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1791"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2531"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1791"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2531"
+  } ]
 }, {
   "idSession" : 1801,
   "votes" : 444,
   "positiveVotes" : 420,
-  "nbConsults" : 513,
+  "nbConsults" : 516,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Disruptive hackers, le pouvoir de changer le monde",
@@ -793,19 +769,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "customer development", "culture hacking", "DDD", "JavaScript", "offline-first", "MVP", "Amélioration continue", "user-first", "no-backend", "mobile-first", "Lean Startup", "prétotyping" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1801"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1611"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1801"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1611"
+  } ]
 }, {
   "idSession" : 1821,
   "votes" : 104,
   "positiveVotes" : 96,
-  "nbConsults" : 1565,
+  "nbConsults" : 1568,
   "lang" : "en",
   "format" : "Talk",
   "title" : "lichess.org: open source success story",
@@ -816,19 +791,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "open source", "free  software", "community", "scalability" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1821"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2391"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1821"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2391"
+  } ]
 }, {
   "idSession" : 1881,
   "votes" : 760,
   "positiveVotes" : 640,
-  "nbConsults" : 892,
+  "nbConsults" : 894,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Fabriquez votre devbox portable avec Docker",
@@ -839,21 +813,21 @@
   "start" : null,
   "end" : null,
   "interests" : [ "continous", "DevOps", "development", "Docker", "devbox" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1881"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/2351"
-    }, {
-      "href" : "http://localhost:8080/api/member/618"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1881"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2351"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/618"
+  } ]
 }, {
   "idSession" : 1941,
   "votes" : 128,
   "positiveVotes" : 112,
-  "nbConsults" : 395,
+  "nbConsults" : 396,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Material Design implementation in Android",
@@ -864,14 +838,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Material Design", "design", "Mobile", "Android" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1941"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/7"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1941"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/7"
+  } ]
 }, {
   "idSession" : 1971,
   "votes" : 119,
@@ -887,14 +860,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Application Web", "panda", "Web", "HTML5", "JavaScript", "Firefox OS", "Retour d'expérience" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1971"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/451"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1971"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/451"
+  } ]
 }, {
   "idSession" : 1981,
   "votes" : 270,
@@ -910,14 +882,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Live Coding", "isomorphisme", "JavaScript", "Flux", "React" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1981"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/114"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1981"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/114"
+  } ]
 }, {
   "idSession" : 1991,
   "votes" : 423,
@@ -933,18 +904,19 @@
   "start" : null,
   "end" : null,
   "interests" : [ "JavaScript", "Flux", "React" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/1991"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/114"
-    }, {
-      "href" : "http://localhost:8080/api/member/2651"
-    }, {
-      "href" : "http://localhost:8080/api/member/105"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/1991"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/114"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2651"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/105"
+  } ]
 }, {
   "idSession" : 2061,
   "votes" : 114,
@@ -960,19 +932,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "JVM platform", "reactive", "polyglot" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2061"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/973"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2061"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/973"
+  } ]
 }, {
   "idSession" : 2081,
   "votes" : 172,
   "positiveVotes" : 172,
-  "nbConsults" : 543,
+  "nbConsults" : 547,
   "lang" : "en",
   "format" : "Talk",
   "title" : "Microservices with Spring Cloud and Netflix OSS",
@@ -983,14 +954,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "netflix", "Spring Boot", "microservices", "Spring" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2081"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/62"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2081"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/62"
+  } ]
 }, {
   "idSession" : 2141,
   "votes" : 53,
@@ -1006,14 +976,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "broker performance scalabilité distribué BigData" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2141"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/1072"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2141"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1072"
+  } ]
 }, {
   "idSession" : 2161,
   "votes" : 260,
@@ -1029,16 +998,16 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Clean Code", "code smells", "Test", "architecture émergeante", "simple" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2161"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/1541"
-    }, {
-      "href" : "http://localhost:8080/api/member/597"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2161"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/1541"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/597"
+  } ]
 }, {
   "idSession" : 2181,
   "votes" : 560,
@@ -1054,16 +1023,16 @@
   "start" : null,
   "end" : null,
   "interests" : [ "risques", "lean start-up", "Agile User Experience", "product ownership", "cadrage", "agile UX", "design thinking", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2181"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/2771"
-    }, {
-      "href" : "http://localhost:8080/api/member/2541"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2181"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2771"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2541"
+  } ]
 }, {
   "idSession" : 2191,
   "votes" : 224,
@@ -1079,14 +1048,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "pourquoi", "psychologique", "anthropologie", "diagnostic", "culturelle", "Agile", "historique" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2191"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2081"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2191"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2081"
+  } ]
 }, {
   "idSession" : 2211,
   "votes" : 378,
@@ -1102,16 +1070,16 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Product Owner", "lean start-up", "Interview utilisateurs", "product ownership", "UX design", "design thinking", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2211"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/2771"
-    }, {
-      "href" : "http://localhost:8080/api/member/2541"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2211"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2771"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2541"
+  } ]
 }, {
   "idSession" : 2281,
   "votes" : 28,
@@ -1127,19 +1095,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "documentation", "user research" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2281"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2431"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2281"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2431"
+  } ]
 }, {
   "idSession" : 2291,
   "votes" : 208,
   "positiveVotes" : 200,
-  "nbConsults" : 720,
+  "nbConsults" : 721,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Introduction à l’IoT: du capteur à la donnée.",
@@ -1150,16 +1117,16 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Big Data", "iot" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2291"
-    },
-    "speaker" : [ {
-      "href" : "http://localhost:8080/api/member/2781"
-    }, {
-      "href" : "http://localhost:8080/api/member/596"
-    } ]
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2291"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2781"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/596"
+  } ]
 }, {
   "idSession" : 2311,
   "votes" : 180,
@@ -1175,14 +1142,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "delivery", "Qualité", "Continuous Deployment", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2311"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2821"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2311"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2821"
+  } ]
 }, {
   "idSession" : 2321,
   "votes" : 105,
@@ -1198,19 +1164,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "appcelerator", "native", "JavaScript", "titanium", "iOS", "Mobile", "Android" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2321"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2831"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2321"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2831"
+  } ]
 }, {
   "idSession" : 2331,
   "votes" : 23,
   "positiveVotes" : 21,
-  "nbConsults" : 603,
+  "nbConsults" : 605,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Coding Dojo et Mob Programming dans les tranchées",
@@ -1221,14 +1186,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2331"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2861"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2331"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2861"
+  } ]
 }, {
   "idSession" : 2361,
   "votes" : 93,
@@ -1244,19 +1208,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Plugins", "build", "Gradle" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2361"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/654"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2361"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/654"
+  } ]
 }, {
   "idSession" : 2371,
   "votes" : 42,
   "positiveVotes" : 42,
-  "nbConsults" : 719,
+  "nbConsults" : 720,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Startups d'état",
@@ -1267,19 +1230,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Lean" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2371"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/965"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2371"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/965"
+  } ]
 }, {
   "idSession" : 2391,
   "votes" : 234,
   "positiveVotes" : 182,
-  "nbConsults" : 1604,
+  "nbConsults" : 1605,
   "lang" : "en",
   "format" : "Talk",
   "title" : "The Mental Leaps at Ericsson 3G",
@@ -1290,19 +1252,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "ways of working", "Lean", "innovation", "process", "processes", "Tools", "process improvement", "queues", "change", "principles", "mindset", "improvements", "accelerated learning", "methods", "Visualization", "learning", "agile Scrum Kanban product Lean", "change management", "story-telling", "resource efficiency", "Kanban", "agile adoption", "flow efficiency", "Scrum", "flow", "Agile" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2391"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2881"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2391"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2881"
+  } ]
 }, {
   "idSession" : 2411,
   "votes" : 108,
   "positiveVotes" : 105,
-  "nbConsults" : 1044,
+  "nbConsults" : 1046,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "Cloud et vie privée",
@@ -1313,14 +1274,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "liberté", "Cloud", "vie privée" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2411"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/994"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2411"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/994"
+  } ]
 }, {
   "idSession" : 2421,
   "votes" : 117,
@@ -1336,19 +1296,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "BDD", "business", "methodology" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2421"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2841"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2421"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2841"
+  } ]
 }, {
   "idSession" : 2451,
   "votes" : 33,
   "positiveVotes" : 26,
-  "nbConsults" : 485,
+  "nbConsults" : 486,
   "lang" : "fr",
   "format" : "Talk",
   "title" : "De zéro à héros avec Spring Boot",
@@ -1359,19 +1318,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ "Spring Boot" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2451"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/62"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2451"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/62"
+  } ]
 }, {
   "idSession" : 2461,
   "votes" : 240,
   "positiveVotes" : 228,
-  "nbConsults" : 716,
+  "nbConsults" : 717,
   "lang" : "en",
   "format" : "Talk",
   "title" : "Reading Code Good",
@@ -1382,14 +1340,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "reading code", "learning to code", "beginner", "developer", "novice", "éducation" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2461"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2911"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2461"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2911"
+  } ]
 }, {
   "idSession" : 2471,
   "votes" : 50,
@@ -1405,14 +1362,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2471"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/2841"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2471"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/2841"
+  } ]
 }, {
   "idSession" : 2521,
   "votes" : 35,
@@ -1428,19 +1384,18 @@
   "start" : null,
   "end" : null,
   "interests" : [ ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2521"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/3241"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2521"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/3241"
+  } ]
 }, {
   "idSession" : 2531,
   "votes" : 72,
   "positiveVotes" : 66,
-  "nbConsults" : 1058,
+  "nbConsults" : 1059,
   "lang" : "en",
   "format" : "Talk",
   "title" : "Designing with Chrome DevTools",
@@ -1451,14 +1406,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "design", "productivity", "Tools" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2531"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/3241"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2531"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/3241"
+  } ]
 }, {
   "idSession" : 2541,
   "votes" : 132,
@@ -1474,14 +1428,13 @@
   "start" : null,
   "end" : null,
   "interests" : [ "science", "espace", "exploration spatiale", "mars" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2541"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/3031"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2541"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/3031"
+  } ]
 }, {
   "idSession" : 2551,
   "votes" : 27,
@@ -1497,12 +1450,11 @@
   "start" : null,
   "end" : null,
   "interests" : [ "liberté responsabilité" ],
-  "_links" : {
-    "self" : {
-      "href" : "http://localhost:8080/api/session/2551"
-    },
-    "speaker" : {
-      "href" : "http://localhost:8080/api/member/3721"
-    }
-  }
+  "links" : [ {
+    "rel" : "self",
+    "href" : "http://localhost:8080/api/session/2551"
+  }, {
+    "rel" : "speaker",
+    "href" : "http://localhost:8080/api/member/3721"
+  } ]
 } ]

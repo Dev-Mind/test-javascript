@@ -10,7 +10,7 @@
     $http.get('api/session/talk?year=2015')
       .then(function (response) {
         ctrl.sessions = response.data;
-        return $http.get('/api/member/speaker');
+        return $http.get('/api/member/speaker?year=2015');
       })
       .then(function (response) {
         ctrl.sessions.forEach(function (session) {
