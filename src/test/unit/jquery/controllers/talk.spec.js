@@ -42,51 +42,55 @@ describe('Jquery : Controller talk', function () {
   }
 
   function createJsonTalksSentByRemoteServer(){
-    var talks =  createTalks(true);
-    talks[0]._links = {
-      speaker : { href : 'http://localhost/speaker/1'}
-    };
-    talks[1]._links = {
-      speaker : { href : 'http://localhost/speaker/2'}
-    };
+    var talks = [
+      builders.createSession(631).title('Amazing session').addSpeaker(567).build(),
+      builders.createSession(634).title('Unbelievable session').addSpeaker(498).build()
+      ];
     return talks;
   }
 
   describe(' method : callBackTalks', function () {
-    it('should update talks', function () {
-      controller.callBackTalks(createJsonTalksSentByRemoteServer());
-      expect(controller.data).toEqual(createJsonTalksSentByRemoteServer());
+    it('should find 2 talks and put them in scope', function () {
+      controller.callBackTalks(talks = [
+        builders.createSession(631).title('Amazing session').addSpeaker(567).build(),
+        builders.createSession(634).title('Unbelievable session').addSpeaker(498).build()
+      ]);
+
+      expect(controller.data.length).toBe(2);
     });
   });
 
   describe(' method : callBackSpeakers', function () {
-    it('should update talks and add the good speaker', function () {
+    it('should find talks and speakers', function () {
       //The talk have been updated
-      controller.data = createJsonTalksSentByRemoteServer();
-      //Act
-      controller.callBackSpeakers(createSpeakers());
+      controller.data = [builders.createSession(631).title('Amazing session').addSpeaker(567).build()];
+      controller.callBackSpeakers([builders.createSpeaker(567).firstname("Stéphane").lastname("Bortzmeyer").build()]);
 
-      //We delete the links to simplify the expect
-      delete controller.data[0]._links;
-      delete controller.data[1]._links;
-      expect(controller.data).toEqual(createTalks());
+      expect(controller.data.length).toBe(1);
+      expect(controller.data[0].speakers).toEqual([{ "idMember" : 567, "firstname" : "Stéphane", "lastname" : "Bortzmeyer"}]);
     });
   });
 
   describe(' method : talkFilter', function () {
     beforeEach(function () {
-      controller.data = createTalks();
+      controller.data = [
+        builders.createSession(631).title('Amazing session').addSpeaker(567).build(),
+        builders.createSession(634).title('Unbelievable session').addSpeaker(498).build()
+      ];
       spyOn(controller, 'updateDom');
     });
 
     it('should display all the sessions if filter is undefined', function () {
-      controller.talkFilter()
-      expect(controller.updateDom.calls.argsFor(0)[0]).toEqual(createTalks());
+      controller.talkFilter();
+      expect(controller.updateDom.calls.argsFor(0)[0].length).toBe(2);
     });
 
-    it('should filter session by summary', function () {
-      controller.talkFilter('First')
-      expect(controller.updateDom.calls.argsFor(0)[0]).toEqual([createTalks()[0]]);
+    it('should filter session by Amazing', function () {
+      controller.talkFilter('Amazing');
+      var arg = controller.updateDom.calls.argsFor(0)[0];
+
+      expect(arg.length).toBe(1);
+      expect(arg[0].title).toBe('Amazing session');
     });
 
   });
@@ -122,16 +126,5 @@ describe('Jquery : Controller talk', function () {
 
   });
 
-  describe(' method : extractId', function () {
-
-    it('should return undefined when no arg', function () {
-      expect(controller.extractId()).toBeUndefined();
-    });
-
-    it('should extract id from URL', function () {
-      expect(controller.extractId('http://localhost:8080/talk/123')).toBe('123');
-    });
-
-  });
 
 });

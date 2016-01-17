@@ -11,7 +11,7 @@ app.talk = {
     $("#session-search").keyup(function(){
       app.talk.talkFilter(this.value);
     });
-    $.ajax({url: 'api/session/talk'}).done(app.talk.callBackTalks);
+    $.ajax({url: 'api/session/talk?year=2015'}).done(app.talk.callBackTalks);
   },
 
   callBackTalks :  function (sessions) {
@@ -21,10 +21,10 @@ app.talk = {
 
   callBackSpeakers : function (speaks) {
     app.talk.data.forEach(function (session) {
-      var speakers = Array.isArray(session._links.speaker) ? session._links.speaker : [session._links.speaker];
+      var speakers = utils.getArrayFromLinks(session.links, 'speaker');
       session.speakers = speaks.filter(function (speaker) {
         var found = speakers.filter(function (s) {
-          return app.talk.extractId(s.href) === (speaker.idMember + '');
+          return utils.extractId(s) === (speaker.idMember + '');
         });
         return found.length > 0;
       });
@@ -79,14 +79,6 @@ app.talk = {
 
     componentHandler.upgradeAllRegistered();
     $(".session-table-header").css('display', 'none');
-  },
-
-  extractId: function (url) {
-    if(!url){
-      return undefined
-    }
-    var elements = url.split('/');
-    return elements[elements.length - 1];
   }
 };
 

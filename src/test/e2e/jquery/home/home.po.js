@@ -11,9 +11,9 @@ var JQueryHomepage = function() {
 
   this.url = new ServerUrl().URL;
 
-  this.linkHome = element(by.className('link_home'));
+  this.linkHome = element.all(by.className('link_home')).first();
   this.linkAngularApp = element(by.className('link_angular'));
-  this.linkJQueryTalk = element(by.className('link_talk'));
+  this.linkJQueryTalk = element.all(by.className('link_talk')).first();
 
 
   this.get = function() {

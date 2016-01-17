@@ -2,6 +2,7 @@
 
 app.menu = {
 
+
   init: function () {
     $(".link_home").click(app.menu.goHome);
 
@@ -17,6 +18,7 @@ app.menu = {
     event.preventDefault();
     app.loadTemplate('#content', 'views/jquery/talk.html');
   }
+
 
 };
 

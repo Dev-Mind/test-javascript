@@ -2,9 +2,9 @@
 
 var ServerUrl = require('../../ServerUrl.js');
 
-fdescribe('Angular Talk', function(){
+describe('Angular Talk', function(){
 
-  this.url = new ServerUrl().URL;
+  var url = new ServerUrl().URL;
 
   describe('Desactivate waitForAngular', function(){
 
@@ -14,8 +14,8 @@ fdescribe('Angular Talk', function(){
       browser.ignoreSynchronization = true;
 
       browser.get(url);
-      element(by.className('link_jquery')).click();
-      element(by.className('link_talk')).click();
+      element.all(by.className('link_jquery')).first().click();
+      element.all(by.className('link_talk')).first().click();
     });
 
     it('should load the 64 talks when the screen is opened', function(){

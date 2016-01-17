@@ -7,7 +7,6 @@ describe('Angular Homepage', function(){
   var page = new AngularHomepage();
 
   beforeEach(function(){
-    console.log(page.url)
     browser.get(page.url);
   });
 

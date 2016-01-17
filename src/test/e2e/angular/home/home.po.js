@@ -10,8 +10,8 @@ var AngularHomepage = function() {
 
   this.url = new ServerUrl().URL;
 
-  this.linkTalk = $('.link_talk');
-  this.linkHome = element(by.className('link_home'));
+  this.linkTalk = $$('.link_talk').first();
+  this.linkHome = element.all(by.className('link_home')).first();
   this.linkJqueryApp = element(by.className('link_jquery'));
 
   this.go = function(name) {
