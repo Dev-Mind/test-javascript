@@ -11,6 +11,8 @@ var builders = (function () {
       "idSession" : idSession,
       "format" : "Talk",
       "summary": "",
+      "lang" : "EN",
+      "speakers":[],
       "links" : [
         {
           "rel" : "self",
@@ -22,11 +24,15 @@ var builders = (function () {
     this.session.title = title;
     return this;
   };
-  Session.prototype.addSpeaker = function (idSpeaker) {
+  Session.prototype.speaker = function (idSpeaker) {
     this.session.links.push({
       "rel" : "speaker",
       "href" : "http://localhost:8080/api/member/" + idSpeaker
     });
+    return this;
+  };
+  Session.prototype.addSpeaker = function (speaker) {
+    this.session.speakers.push(speaker);
     return this;
   };
   Session.prototype.build = function () {

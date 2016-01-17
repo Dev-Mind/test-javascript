@@ -6,54 +6,11 @@ describe('Jquery : Controller talk', function () {
     controller = app.talk;
   });
 
-  function createSpeakers(){
-    return [
-      {
-        idMember:1,
-        firstname: 'Guillaume',
-        lastname: 'EHRET'
-      },
-      {
-        idMember:2,
-        firstname: 'Dev',
-        lastname: 'Mind'
-      }]
-  }
-
-  function createTalks(withoutSpeaker){
-    var talks =  [{
-      title: 'First session',
-      lang: 'EN',
-      format : 'talk',
-      summary: 'Tests in JavaScript'
-    },
-      {
-        title: 'Second session',
-        lang: 'FR',
-        format : 'talk',
-        summary: 'Tests in Java'
-      }];
-
-    if(!withoutSpeaker){
-      talks[0].speakers = [createSpeakers()[0]];
-      talks[1].speakers = [createSpeakers()[1]];
-    }
-    return talks;
-  }
-
-  function createJsonTalksSentByRemoteServer(){
-    var talks = [
-      builders.createSession(631).title('Amazing session').addSpeaker(567).build(),
-      builders.createSession(634).title('Unbelievable session').addSpeaker(498).build()
-      ];
-    return talks;
-  }
-
   describe(' method : callBackTalks', function () {
     it('should find 2 talks and put them in scope', function () {
-      controller.callBackTalks(talks = [
-        builders.createSession(631).title('Amazing session').addSpeaker(567).build(),
-        builders.createSession(634).title('Unbelievable session').addSpeaker(498).build()
+      controller.callBackTalks([
+        builders.createSession(631).title('Amazing session').speaker(567).build(),
+        builders.createSession(634).title('Unbelievable session').speaker(498).build()
       ]);
 
       expect(controller.data.length).toBe(2);
@@ -63,7 +20,7 @@ describe('Jquery : Controller talk', function () {
   describe(' method : callBackSpeakers', function () {
     it('should find talks and speakers', function () {
       //The talk have been updated
-      controller.data = [builders.createSession(631).title('Amazing session').addSpeaker(567).build()];
+      controller.data = [builders.createSession(631).title('Amazing session').speaker(567).build()];
       controller.callBackSpeakers([builders.createSpeaker(567).firstname("Stéphane").lastname("Bortzmeyer").build()]);
 
       expect(controller.data.length).toBe(1);
@@ -74,8 +31,8 @@ describe('Jquery : Controller talk', function () {
   describe(' method : talkFilter', function () {
     beforeEach(function () {
       controller.data = [
-        builders.createSession(631).title('Amazing session').addSpeaker(567).build(),
-        builders.createSession(634).title('Unbelievable session').addSpeaker(498).build()
+        builders.createSession(631).title('Amazing session').speaker(567).build(),
+        builders.createSession(634).title('Unbelievable session').speaker(498).build()
       ];
       spyOn(controller, 'updateDom');
     });
@@ -96,6 +53,17 @@ describe('Jquery : Controller talk', function () {
   });
 
   describe(' method : updateDom', function () {
+
+    function createTalks(){
+      return [
+        builders.createSession(631).title('Amazing session').speaker(567)
+          .addSpeaker(builders.createSpeaker(567).firstname("Stéphane").lastname("Bortzmeyer").build())
+          .build(),
+        builders.createSession(634).title('Unbelievable session').speaker(498)
+          .addSpeaker(builders.createSpeaker(634).firstname("Dan").lastname("North").build())
+          .build()
+      ];
+    }
 
     beforeEach(function () {
       $('body').append('<table class="mytest"><tbody class="session-table-content"></tbody></table>');
@@ -120,8 +88,8 @@ describe('Jquery : Controller talk', function () {
     it('should add a new line for the session with the name of th speaker, the name of the session', function () {
       controller.updateDom(createTalks());
 
-      expect($(".jt-text").first().text()).toBe('local_library First session EN');
-      expect($(".jt-speaker").first().text()).toBe('Guillaume EHRET');
+      expect($(".jt-session-title").first().text()).toBe('Amazing session EN');
+      expect($(".jt-speaker").first().text()).toBe('Stéphane Bortzmeyer');
     });
 
   });

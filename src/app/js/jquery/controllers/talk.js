@@ -54,7 +54,7 @@ app.talk = {
         var line = '<tr class="jt-talk-line"><td class="mdl-data-table__cell--non-numeric">';
         line += '<p class="jt-text mdl-card__title-text cesar-card__title-text">';
         line += '<i class="material-icons cesar-button--fab">local_library</i>&nbsp;';
-        line += session.title + '&nbsp;<b>' + session.lang + '</b>';
+        line += '<span class="jt-session-title">' + session.title + '&nbsp;<b>' + session.lang + '</b>' + '</span>';
         line += '</p>';
         line += session.summary + '<br>&nbsp;<br>';
 
