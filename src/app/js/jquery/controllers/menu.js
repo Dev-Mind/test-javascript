@@ -25,4 +25,5 @@ app.menu = (function() {
   };
 
 })();
+
 $(app.menu.init);
