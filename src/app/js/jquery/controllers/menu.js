@@ -1,25 +1,28 @@
 'use strict';
 
-app.menu = {
+app.menu = (function() {
 
-
-  init: function () {
+  function init() {
     $(".link_home").click(app.menu.goHome);
 
     $(".link_talk").click(app.menu.goTalk);
-  },
+  }
 
-  goHome: function (event) {
+  function goHome(event) {
     event.preventDefault();
     app.loadTemplate('#content', 'views/home.html');
-  },
+  }
 
-  goTalk: function (event) {
+  function goTalk(event){
     event.preventDefault();
     app.loadTemplate('#content', 'views/jquery/talk.html');
   }
 
+  return{
+    init: init,
+    goHome: goHome ,
+    goTalk: goTalk
+  };
 
-};
-
+})();
 $(app.menu.init);

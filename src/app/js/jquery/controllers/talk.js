@@ -1,25 +1,23 @@
 'use strict';
 
 
-app.talk = {
+app.talk =  (function() {
 
-  data : undefined,
-
-  init: function () {
+  function init() {
     componentHandler.upgradeAllRegistered();
 
     $("#session-search").keyup(function(){
       app.talk.talkFilter(this.value);
     });
     $.ajax({url: 'api/session/talk?year=2015'}).done(app.talk.callBackTalks);
-  },
+  }
 
-  callBackTalks :  function (sessions) {
+  function callBackTalks(sessions) {
     app.talk.data = sessions;
     $.ajax({url: '/api/member/speaker?year=2015'}).done(app.talk.callBackSpeakers);
-  },
+  }
 
-  callBackSpeakers : function (speaks) {
+  function callBackSpeakers(speaks) {
     app.talk.data.forEach(function (session) {
       var speakers = utils.getArrayFromLinks(session.links, 'speaker');
       session.speakers = speaks.filter(function (speaker) {
@@ -30,9 +28,9 @@ app.talk = {
       });
     });
     app.talk.updateDom(app.talk.data);
-  },
+  }
 
-  talkFilter : function(text) {
+  function talkFilter(text) {
     if (text) {
       text = text.toLowerCase();
       app.talk.updateDom(app.talk.data.filter(function (session) {
@@ -44,9 +42,9 @@ app.talk = {
     else {
       app.talk.updateDom(app.talk.data);
     }
-  },
+  }
 
-  updateDom: function (sessions) {
+  function updateDom(sessions) {
     $(".session-table-content").empty();
 
     if (sessions) {
@@ -80,7 +78,17 @@ app.talk = {
     componentHandler.upgradeAllRegistered();
     $(".session-table-header").css('display', 'none');
   }
-};
+
+  return{
+    data : undefined,
+    init: init,
+    callBackTalks: callBackTalks,
+    callBackSpeakers: callBackSpeakers,
+    talkFilter:talkFilter,
+    updateDom:updateDom
+  };
+
+})();
 
 
 $(app.talk.init);
