@@ -2,7 +2,7 @@
 
 var AngularHomepage = require('./home.po.js');
 
-fdescribe('Angular Homepage', function(){
+describe('Angular Homepage', function(){
 
   var page = new AngularHomepage();
   var fs = require('fs');
@@ -11,7 +11,7 @@ fdescribe('Angular Homepage', function(){
     browser.get('/home');
   });
 
-  it('should have a title "Tests en Angular"', () =>{
+  it('should have a title "Tests en Angular"', function(){
     expect(browser.getTitle()).toBe('Tests en Angular');
   });
 

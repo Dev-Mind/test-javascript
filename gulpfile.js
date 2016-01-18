@@ -24,7 +24,6 @@ var paths = {
       'src/test/unit/**/*.spec.js'
     ],
     e2e: [
-      'src/test/e2e/**/*.spec.js',
       'src/test/e2e/e2eConfig.js'
     ],
     test: [

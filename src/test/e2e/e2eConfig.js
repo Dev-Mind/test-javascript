@@ -11,7 +11,7 @@ angular.module('jt.e2e', ['ngMockE2E']).run(function ($httpBackend, $http) {
     });
 
     //We mock the remote calls
-    $httpBackend.whenGET('api/session/talk').respond(this.talk);
+    $httpBackend.whenGET('api/session/talk?year=2015').respond(this.talk);
 
 
   });

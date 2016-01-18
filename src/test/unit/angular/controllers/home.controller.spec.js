@@ -1,6 +1,7 @@
+
 describe('Angular : Controller HomeCtrl', function () {
 
-  var controller;
+  let controller;
 
   beforeEach(module('jt-controllers'));
 
