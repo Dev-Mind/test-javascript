@@ -3,12 +3,13 @@
 var JQueryHomepage = require('../home/home.po.js');
 var JQueryTalkPage = require('./talk.po.js');
 
-describe('jQuery Talk', function(){
+describe('jQuery Talk', () => {
 
-  var page = new JQueryTalkPage();
-  var menu = new JQueryHomepage();
+  let page = new JQueryTalkPage();
+  let menu = new JQueryHomepage();
 
-  beforeEach(function(){
+  beforeEach(() => {
+
     //Protractor wait for Angular by default ==> Failed: Error while waiting for Protractor to sync with the page: "angular could not be found on the window"
     //So you can desactive this param
     browser.ignoreSynchronization = true;

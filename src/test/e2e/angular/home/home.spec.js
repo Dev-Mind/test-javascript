@@ -2,32 +2,30 @@
 
 var AngularHomepage = require('./home.po.js');
 
-describe('Angular Homepage', function(){
+describe('Angular Homepage', () => {
 
-  var page = new AngularHomepage();
-  var fs = require('fs');
-
-  beforeEach(function(){
+  beforeEach(() => {
+    this.page = new AngularHomepage();
     browser.get('/home');
   });
 
-  it('should have a title "Tests en Angular"', function(){
+  it('should have a title "Tests en Angular"', () => {
     expect(browser.getTitle()).toBe('Tests en Angular');
   });
 
-  it('should refresh home page', function(){
-    page.go('linkHome');
+  it('should refresh home page', () => {
+    this.page.go('linkHome');
     expect(browser.getCurrentUrl()).toBe('http://localhost:4000/home');
   });
 
-  it('should open talk page', function(){
-    page.go('linkTalk');
-    page.takeScreeenShot('talk.png');
+  it('should open talk page', () => {
+    this.page.go('linkTalk');
+    this.page.takeScreeenShot('talk.png');
     expect(browser.getCurrentUrl()).toBe('http://localhost:4000/talk');
   });
 
-  it('should open jquery app', function(){
-    page.go('linkJqueryApp');
+  it('should open jquery app', () => {
+    this.page.go('linkJqueryApp');
     //Protractor can't be used in a non angular app. So we have to call the webdriver
     expect(browser.driver.getTitle()).toBe('Tests en jQuery');
   });
