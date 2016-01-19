@@ -5,6 +5,7 @@
   'use strict';
 
   angular.module('jt-controllers').controller('HomeCtrl', function () {
+    'ngInject';
     var ctrl = this;
 
     ctrl.name = 'Home';

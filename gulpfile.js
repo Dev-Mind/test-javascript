@@ -24,10 +24,8 @@ var paths = {
       'src/test/unit/**/*.spec.js'
     ],
     e2e: [
+      'node_modules/angular-mocks/angular-mocks.js',
       'src/test/e2e/e2eConfig.js'
-    ],
-    test: [
-      'node_modules/angular-mocks/angular-mocks.js'
     ]
   },
   templates: [

@@ -8,6 +8,8 @@ var plumber = require('gulp-plumber');
 var rename = require('gulp-rename');
 //Replaces element in file
 var replace = require('gulp-replace');
+//Changes angular files to prepare minification
+var ngAnnotate = require('gulp-ng-annotate');
 
 
 module.exports = function(gulp, config) {
@@ -30,7 +32,11 @@ module.exports = function(gulp, config) {
   });
 
   gulp.task('build:e2e:js', function () {
-    return gulp.src(paths.js.test)
+    return gulp.src(paths.js.e2e)
+      .pipe(ngAnnotate({
+        'single_quotes': true,
+        add: true
+      }))
       .pipe(concat('e2e.js'))
       .pipe(gulp.dest(paths.build.e2e + '/js'));
   });

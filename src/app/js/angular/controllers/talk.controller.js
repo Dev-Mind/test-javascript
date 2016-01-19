@@ -5,12 +5,13 @@
   'use strict';
 
   angular.module('jt-controllers').controller('TalkCtrl', function ($http) {
+    'ngInject';
     var ctrl = this;
 
     $http.get('api/session/talk?year=2015')
       .then(function (response) {
         ctrl.sessions = response.data;
-        return $http.get('/api/member/speaker?year=2015');
+        return $http.get('api/member/speaker?year=2015');
       })
       .then(function (response) {
         ctrl.sessions.forEach(function (session) {

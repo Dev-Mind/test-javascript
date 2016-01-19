@@ -3,6 +3,7 @@
   'use strict';
 
   angular.module('jt-filters').filter('sessionLogo', function () {
+    'ngInject';
     return function(input){
       switch(input){
         case 'Talk':

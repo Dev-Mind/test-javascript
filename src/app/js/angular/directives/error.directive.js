@@ -3,6 +3,7 @@
   'use strict';
 
   angular.module('jt-directives').directive('jtErrorDialog', function () {
+    'ngInject';
     return {
       replace: true,
       scope: {
