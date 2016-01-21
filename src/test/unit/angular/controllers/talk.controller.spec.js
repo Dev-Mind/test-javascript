@@ -17,7 +17,7 @@ describe('Angular : Controller TalkCtrl', function () {
       builders.createSession(631).title('Amazing session').speaker(567).build(),
       builders.createSession(634).title('Unbelievable session').speaker(498).build()
     ]);
-    httpBackend.expectGET('/api/member/speaker?year=2015').respond([]);
+    httpBackend.expectGET('api/member/speaker?year=2015').respond([]);
     httpBackend.flush();
 
     expect(controller.sessions.length).toBe(2);
@@ -27,7 +27,7 @@ describe('Angular : Controller TalkCtrl', function () {
     httpBackend.expectGET('api/session/talk?year=2015').respond([
       builders.createSession(631).title('Amazing session').speaker(567).build(),
     ]);
-    httpBackend.expectGET('/api/member/speaker?year=2015').respond([builders.createSpeaker(567).firstname("Stéphane").lastname("Bortzmeyer").build()]);
+    httpBackend.expectGET('api/member/speaker?year=2015').respond([builders.createSpeaker(567).firstname("Stéphane").lastname("Bortzmeyer").build()]);
     httpBackend.flush();
 
     expect(controller.sessions.length).toBe(1);

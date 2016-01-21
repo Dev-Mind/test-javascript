@@ -20,11 +20,6 @@ exports.config = {
     browser.driver.manage().window().maximize();
   },
 
-  suites: {
-    abc: 'src/test/e2e/abc/**/*.spec.js',
-    angular: 'src/test/e2e/angular/**/*.spec.js',
-    jquery: 'src/test/e2e/jquery/**/*.spec.js'
-  },
 
 
   // Options to be passed to Jasmine.
