@@ -1,8 +1,8 @@
 'use strict';
 
-describe('Angular : Controller HomeCtrl', function () {
+describe('Angular : Controller HomeCtrl', () => {
 
-  var controller;
+  let controller;
 
   beforeEach(module('jt-controllers'));
 
